@@ -650,6 +650,34 @@ fieldset[disabled] .btn-link:focus {
   text-align: center;
 }
 
+/* Treatments Styles */
+.treatments-hero-container-img {
+  position: relative;
+  background: #ffffff url('https://firebasestorage.googleapis.com/v0/b/on-and-on-7b40c.appspot.com/o/services.png?alt=media&token=07efab8d-931e-43fc-9356-ca8b28b50e23') center center/cover no-repeat;
+  width: 300px;
+  color: white;
+}
+
+@media (min-width: 500px) {
+  .treatments-hero-container-img {
+    min-height: 250px;
+  }
+}
+
+@media (min-width: 768px) {
+  .treatments-hero-container-img {
+    min-height: 350px;
+  }
+}
+
+@media (min-width: 992px) {
+  .treatments-hero-container-img {
+    min-height: 450px;
+  }
+}
+
+
+
 /* Index Styles */
 
 .index-hero-container-img {

@@ -43,7 +43,6 @@ class Home extends Component {
 							</div>
 						</div>
 					</div>
-					<hr />
 				</section>
 
 				<Footer />
