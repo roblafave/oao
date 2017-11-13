@@ -163,7 +163,7 @@ class Step2 extends Component {
 
 function termsContent(){
 	return (
-		<div id="legal-content" style={{overflowY: 'scroll', height:200, border:'1px solid #ccc', borderRadius:4, boxShadow: 'inset 0 1px 1px rgba(0,0,0,.075)', padding:'6px 12px', fontSize:'14px'}}>
+		<div id="legal-content" style={{overflowY: 'scroll', height:200, border:'1px solid #ccc', backgroundColor:'#FFFFFF', borderRadius:4, boxShadow: 'inset 0 1px 1px rgba(0,0,0,.075)', padding:'6px 12px', fontSize:'14px'}}>
 				<b>LED</b>
 				<br />
 				Individuals with any of the following symptoms or situations may​ ​not​, under any circumstance, undergo LED light therapy:
