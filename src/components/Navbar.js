@@ -88,9 +88,11 @@ class Navbar extends Component {
 
 					<div className="collapse navbar-collapse">
 						<ul className="nav navbar-nav navbar-right">
-							<li><Link to="/services">Services</Link> </li>
-							<li><Link to="/appointment">Appointment</Link></li>
-							<li><Link to="/location">Location</Link></li>
+							<li><Link to="/about">about</Link> </li>
+							<li><Link to="/treatments">treatments</Link> </li>
+							<li><Link to="/book">book</Link></li>
+							<li><Link to="/faq">faq</Link></li>
+							<li><Link to="/location">location</Link></li>
 						</ul>
 					</div>
 				</div>
@@ -143,12 +145,14 @@ const Mobnav = observer(({ close, waveParticipant, avatar, userMatchInfo, user }
 
 					<div>
 						<ul className="nav navbar-nav nav-mobile-links">
-							<li><Link className='' onClick={close} to="/">Home</Link> </li>
-							<li><Link onClick={close} to="/services">Services</Link></li>
-							<li><Link onClick={close} to="/appointment">Appointment</Link></li>
-							<li><Link onClick={close} to="/location">Location</Link></li>
+							<li><Link className='' onClick={close} to="/">home</Link> </li>
+							<li><Link onClick={close} to="/about">about</Link></li>
+							<li><Link onClick={close} to="/treatments">treatments</Link></li>
+							<li><Link onClick={close} to="/book">book</Link></li>
+							<li><Link onClick={close} to="/faq">faq</Link></li>
+							<li><Link onClick={close} to="/location">location</Link></li>
 						</ul>
-							{appState.userMeta.email &&
+							{appState.userMeta.emailauth &&
 								<span>
 									<hr/>
 									<ul className="nav navbar-nav">

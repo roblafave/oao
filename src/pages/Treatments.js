@@ -9,7 +9,7 @@ import Footer from '../components/Footer';
 
 
 
-class Location extends Component {
+class Treatments extends Component {
 
 	// constructor(props) {
 	//	 super(props);
@@ -17,18 +17,21 @@ class Location extends Component {
 
 	render() {
 		return (
-			<div>
+			<div className='bg-tan'>
 				<section className='hero'>
 					<div className='container'>
 						<div className='row hero-container-text'>
 							<div className='col-sm-12'>
-								<h2>Location</h2>
+								<h2>Treatments</h2>
 								<div className='divider-blue mt-30'></div>
 							</div>
 						</div>
 						<div className='row'>
 							<div className='col-sm-12'>
-							
+								<p>
+									Body text.
+								</p>
+								<br />
 							</div>
 						</div>
 					</div>
@@ -41,4 +44,4 @@ class Location extends Component {
 	}
 }
 
-export default Location;
+export default Treatments;

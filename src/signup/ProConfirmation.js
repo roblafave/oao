@@ -32,7 +32,7 @@ class Confirmation extends Component {
 						<div className='col-sm-12'>
 							<div className='row hero-container-text'>
 								<h2>Thanks for Signing Up!</h2>
-								<div className='divider-honey mt-30'></div>
+								<div className='divider-blue mt-30'></div>
 								<p className='mt-20 center'>Phew, the hardest part&#39;s over. Now we&#39;ll work our magic to find your match.</p>
 							</div>
 							<div className='row hero-container-btn mt-30 mb-40'>

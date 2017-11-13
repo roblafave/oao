@@ -21,18 +21,18 @@
         <g id="6b-Sign-Up" transform="translate(-134.000000, -188.000000)">
             <g id="Indicator" transform="translate(114.000000, 188.000000)">
                 <g id="3" transform="translate(472.000000, 0.000000)">
-                    <use id="Oval" stroke="#0000AD" mask="url(#mask-2)" stroke-width="2" opacity="0" xlink:href="#path-1"></use>
-                    <circle id="Oval" fill="#0000AD" cx="25" cy="25" r="5"></circle>
+                    <use id="Oval" stroke="#1c2a5a" mask="url(#mask-2)" stroke-width="2" opacity="0" xlink:href="#path-1"></use>
+                    <circle id="Oval" fill="#1c2a5a" cx="25" cy="25" r="5"></circle>
                 </g>
-                <path d="M306.5,25 L451.146118,25" id="line" stroke="#0000AD" stroke-width="2" stroke-linecap="square" opacity="0.3"></path>
+                <path d="M306.5,25 L451.146118,25" id="line" stroke="#1c2a5a" stroke-width="2" stroke-linecap="square" opacity="0.3"></path>
                 <g id="2" transform="translate(236.000000, 0.000000)">
-                    <use id="Oval" stroke="#0000AD" mask="url(#mask-4)" stroke-width="4" opacity="0.3" xlink:href="#path-3"></use>
-                    <circle id="Oval" fill="#FCB94C" cx="25" cy="25" r="5"></circle>
+                    <use id="Oval" stroke="#1c2a5a" mask="url(#mask-4)" stroke-width="4" opacity="0.3" xlink:href="#path-3"></use>
+                    <circle id="Oval" fill="#1c2a5a" cx="25" cy="25" r="5"></circle>
                 </g>
-                <path d="M70.5,25 L215.146118,25" id="Line" stroke="#0000AD" stroke-width="2" stroke-linecap="square" opacity="0.3"></path>
+                <path d="M70.5,25 L215.146118,25" id="Line" stroke="#1c2a5a" stroke-width="2" stroke-linecap="square" opacity="0.3"></path>
                 <g id="1">
-                    <use id="Oval" stroke="#0000AD" mask="url(#mask-6)" stroke-width="4" opacity="0" xlink:href="#path-5"></use>
-                    <circle id="Oval" fill="#0000AD" cx="25" cy="25" r="5"></circle>
+                    <use id="Oval" stroke="#1c2a5a" mask="url(#mask-6)" stroke-width="4" opacity="0" xlink:href="#path-5"></use>
+                    <circle id="Oval" fill="#1c2a5a" cx="25" cy="25" r="5"></circle>
                 </g>
             </g>
         </g>

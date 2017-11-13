@@ -65,7 +65,7 @@ class Step1 extends Component {
 	      userDataUpdate[`/users/${user.uid}/email`] = email;
 	      userDataUpdate[`/users/${user.uid}/phone`] = phone;
 	      userDataUpdate[`/users/${user.uid}/dob`] = dob;
-				userDataUpdate[`/users/${user.uid}/createdAt`] = moment().tz('America/New_York').format();
+				userDataUpdate[`/users/${user.uid}/createdAt`] = moment().tz('US/Hawaii').format();
 				userDataUpdate[`/users/${user.uid}/ipAddress`] = ip.address();
 	      userDataUpdate[`/users/${user.uid}/step1completed`] = true;
 

@@ -1,32 +1,33 @@
 import React, { Component } from 'react';
 import Script from 'react-load-script'
 
-class SquareAppointment extends Component {
+function SquareAppointmentWidget(props) {
+
+  if (!props.widget) {
+    return null;
+  }
+
+  return (
+    <Script
+      url="https://squareup.com/appointments/buyer/widget/ce96cbad-437c-40b8-9978-9685f88c8493/0RM6MYM9QZJY3.js"
+    />
+  );
+}
+
+class SquareAppointment2 extends Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {showAppointmentWidget: true}
+  }
 
   render() {
     return (
-
-      <Script
-        url="https://squareup.com/appointments/buyer/widget/ce96cbad-437c-40b8-9978-9685f88c8493/0RM6MYM9QZJY3.js"
-        onCreate={this.handleScriptCreate.bind(this)}
-        onError={this.handleScriptError.bind(this)}
-        onLoad={this.handleScriptLoad.bind(this)}
-      />
-    )
+      <div>
+        <SquareAppointmentWidget widget={this.state.showAppointmentWidget} />
+      </div>
+    );
   }
-
-  handleScriptCreate() {
-    this.setState({ scriptLoaded: false })
-  }
-
-  handleScriptError() {
-    this.setState({ scriptError: true })
-  }
-
-  handleScriptLoad() {
-    this.setState({ scriptLoaded: true })
-  }
-
 }
 
-export default SquareAppointment;
+export default SquareAppointment2;

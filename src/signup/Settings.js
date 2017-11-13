@@ -286,7 +286,7 @@ class Settings extends Component {
             <div className='col-sm-3'></div>
             <div className='col-sm-6'>
               <h3>Settings</h3>
-              <div className='divider-honey mt-20'></div>
+              <div className='divider-blue mt-20'></div>
             </div>
           </div>
         </div>

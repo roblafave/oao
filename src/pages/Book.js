@@ -4,13 +4,13 @@ import React, { Component } from 'react';
 
 // components
 import Footer from '../components/Footer';
-import SquareAppointment2 from '../components/SquareAppointment2';
+import SquareAppointment from '../components/SquareAppointment';
 
 // assets
 
 
 
-class Appointment extends Component {
+class Book extends Component {
 
 	// constructor(props) {
 	//	 super(props);
@@ -21,13 +21,21 @@ class Appointment extends Component {
 	componentDidMount(){
 		let iframe = this.getIframe();
 		console.log('componentDidMount', iframe);
-		iframe && (iframe.style.display = 'block');
+		if(iframe){
+			iframe.style.display = 'block';
+			iframe.style.minHeight = '1000px';
+			iframe.style.widget.backgroundColor = '#f7f0de';
+			this.iframeContainer.after(iframe);
+		}
 	}
 
 	componentWillUnmount(){
 		let iframe = this.getIframe();
 		console.log('componentWillUnmount', iframe);
-		iframe && (iframe.style.display = 'none');
+		if(iframe){
+			iframe.style.display = 'none';
+			document.body.insertBefore(iframe, null);
+		}
 	}
 
 	render() {
@@ -36,28 +44,25 @@ class Appointment extends Component {
 				<section className='hero'>
 					<div className='container'>
 						<div className='row hero-container-text'>
-							<div className='col-sm-12'>
-								<h2>Appointment</h2>
-								<div className='divider-honey mt-30'></div>
+							<div className='col-sm-12' ref={ el => this.iframeContainer = el}>
+								<h2>Book</h2>
+								<div className='divider-blue mt-30'></div>
 							</div>
 						</div>
 						<div className='row'>
 							<div className='col-sm-12'>
-								<SquareAppointment2 />
-								<p>
-									Body text.
-								</p>
-								<br />
+								<SquareAppointment />
+
 							</div>
 						</div>
 					</div>
 				</section>
 
 
-				<Footer />
+
 			</div>
 		);
 	}
 }
 
-export default Appointment;
+export default Book;

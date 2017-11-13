@@ -8,7 +8,8 @@
     "firebase-admin": "^4.1.2",
     "firebase-functions": "^0.5",
     "hellosign-sdk": "^1.1.12",
-    "moment": "^2.18.1"
+    "moment": "^2.18.1",
+    "request": "^2.83.0"
   },
   "private": true
 }

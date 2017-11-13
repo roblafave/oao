@@ -7,8 +7,9 @@ import appState from './appState';
 
 // Static Pages
 import Home from './pages/Home';
-import Services from './pages/Services';
-import Appointment from './pages/Appointment';
+import About from './pages/About';
+import Treatments from './pages/Treatments';
+import Book from './pages/Book';
 import Location from './pages/Location';
 
 import WavePreSignup from './pages/WavePreSignup';
@@ -18,8 +19,7 @@ import Page404 from './pages/Page404';
 // Sign Up
 import Step1 from './signup/Step1';
 import Step2 from './signup/Step2';
-import Step3 from './signup/Step3';
-import Confirmation from './signup/ProConfirmation';
+import Confirmation from './signup/Confirmation';
 import Login from './signup/Login';
 
 
@@ -38,8 +38,7 @@ const SignupStudent = ({ children }) => <div>{children}</div>;
 // const Advisor = ({ children }) => <div>{children}</div>;
 
 let pageMeta = { /* browser title, page header */
-  '/services': { title: 'Services', header: 'Services' },
-  '/appointment': { title: 'Appointment', header: 'Appointment' },
+  '/treatments': { title: 'Treatments', header: 'Treatments' },
   '/location': { title: 'Location', header: 'Location' },
   '/wave/login': { title: 'Login', header: 'Login' },
   default: { title: 'Welcome!', header: 'Welcome!' },
@@ -74,8 +73,7 @@ ReactDOM.render(
 			<Route path='/welcome' component={Signup} onEnter={updateTitle}>
 				<IndexRoute component={Step1} />
 					<Route path='2' component={Step2} onEnter={updateTitle} />
-					<Route path='3' component={Step3} onEnter={updateTitle} />
-          <Route path='confirmation' component={Confirmation} onEnter={updateTitle} />
+					<Route path='confirmation' component={Confirmation} onEnter={updateTitle} />
 			</Route>
 
       <Route path='/login' component={Login}  onEnter={updateTitle} />
@@ -83,8 +81,9 @@ ReactDOM.render(
       <Route path='/settings' component={Settings}  onEnter={updateTitle} />
       <Route path='/changelogin' component={ChangeLogin}  onEnter={updateTitle} />
 
-			<Route path='/services' component={Services}  onEnter={updateTitle} />
-			<Route path='/appointment' component={Appointment} onEnter={updateTitle} />
+			<Route path='/about' component={About}  onEnter={updateTitle} />
+			<Route path='/treatments' component={Treatments}  onEnter={updateTitle} />
+			<Route path='/book' component={Book} onEnter={updateTitle} />
 			<Route path='/location' component={Location} onEnter={updateTitle} />
 			<Route path='/welcome' component={Step1} onEnter={updateTitle} />
 			<Route path='/welcome/2' component={Step2} onEnter={updateTitle} />

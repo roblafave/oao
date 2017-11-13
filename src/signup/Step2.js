@@ -47,7 +47,7 @@ class Step2 extends Component {
 			/* 🔥 */
 			userRef.update(userDataUpdate).then(()=>{
 				/* User data saved to database -- move on to next step */
-				browserHistory.push(`/welcome/3`);
+				browserHistory.push(`/welcome/confirmation`);
 
 				// window.Intercom("update", userDataUpdate);
 
@@ -74,7 +74,7 @@ class Step2 extends Component {
 	render() {
 
 		if( appState.userMeta.step2completed ) {
-			setTimeout(()=> browserHistory.push(`/welcome/3`) ,100)
+			setTimeout(()=> browserHistory.push(`/welcome/confirmation`) ,100)
 		}
 
 		return (

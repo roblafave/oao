@@ -20,7 +20,7 @@ class Advisor extends Component {
 						<div className='row hero-container-text'>
 							<div className='col-sm-12'>
 								<img src={ waveLogo } className={ 'center-block img-responsive mt-20 mb-30'} style={{ maxHeight: 30 }} alt="#BUILTBYGIRLS Hashtag Logo" />
-								<div className='divider-honey'></div>
+								<div className='divider-blue'></div>
 							</div>
 						</div>
 					</div>
