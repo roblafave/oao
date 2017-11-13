@@ -37,7 +37,7 @@ exports.squareCreateCustomer = functions.database.ref('/users/{userID}/step2comp
             'family_name': lastName,
             'email_address': email,
             'phone_number': phone,
-            'reference_id': 'user id',
+            'reference_id': event.params.userID,
             'note': note
           };
 
