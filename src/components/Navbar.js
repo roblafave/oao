@@ -78,12 +78,12 @@ class Navbar extends Component {
 		}
 		return (
 			<nav className="navbar navbar-default">
-				<div className="nav-container">
+				<div className="container navbar-container">
 					<div className="navbar-header">
 						<button type="button" className="navbar-toggle collapsed" onClick={this.openMobileNav.bind(this)}>
 							<img src={hamburger} alt=""/>
 						</button>
-						<Link to="/" className='navbar-brand'><img src={ logo } style={{ width: 100 }} alt="On & On" /></Link>
+						<Link to="/" className='navbar-brand'><img src={ logo } style={{ width: 170 }} alt="On & On" /></Link>
 					</div>
 
 					<div className="collapse navbar-collapse">
