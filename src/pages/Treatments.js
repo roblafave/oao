@@ -23,7 +23,6 @@ class Treatments extends Component {
 						<div className='row hero-container-text'>
 							<div className='col-sm-12'>
 								<h2>Treatments</h2>
-								<div className='divider-blue mt-30'></div>
 							</div>
 						</div>
 

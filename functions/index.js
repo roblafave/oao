@@ -27,7 +27,7 @@ exports.squareCreateCustomer = functions.database.ref('/users/{userID}/step2comp
           var step2completed = userData.step2completed;
           var userID = userData.userID;
 
-          var access_token = 'sq0atp-kx4YKJN0ucugNKy691hKfQ';
+          var access_token = 'sq0atp-WatKhh47Bm9vVRXIbptEzw';
           var request_headers = {'Authorization': 'Bearer ' + access_token,
                          'Accept':        'application/json',
                          'Content-Type':  'application/json'}

@@ -677,6 +677,35 @@ fieldset[disabled] .btn-link:focus {
 }
 
 
+/* Location Styles */
+
+.location-container-left {
+  text-align: right;
+}
+
+.location-starburst-img {
+  display: block;
+  margin: 0px 0px 0px 50px;
+}
+
+.location-map-img {
+  position: relative;
+  min-height: 250px;
+  color: white;
+}
+
+@media (min-width: 500px) {
+  .location-map-img {
+    min-height: 300px;
+  }
+}
+
+@media (min-width: 768px) {
+  .location-map-img {
+    min-height: 400px;
+  }
+}
+
 
 /* Index Styles */
 
@@ -1120,7 +1149,7 @@ select {
 }
 .navbar-brand {
 	float: none;
-    line-height: 45px;
+    line-height: 100px;
 }
 
 .navbar-brand>img {
@@ -1181,7 +1210,9 @@ select {
 .navbar-default .navbar-nav>li>a {
     color: #1b2a5a;
     font-size: 16px;
+    margin: 30px 0px;
 }
+
 .navbar-default .navbar-nav>li>a:hover {
     color: #334da5;
     font-size: 16px;

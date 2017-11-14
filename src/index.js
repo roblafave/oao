@@ -41,7 +41,7 @@ let pageMeta = { /* browser title, page header */
   '/treatments': { title: 'Treatments', header: 'Treatments' },
   '/location': { title: 'Location', header: 'Location' },
   '/wave/login': { title: 'Login', header: 'Login' },
-  default: { title: 'Welcome!', header: 'Welcome!' },
+  default: { title: 'Skin & Body Care', header: 'Skin & Body Care' },
 };
 
 function updateTitle() {
