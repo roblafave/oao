@@ -683,6 +683,14 @@ fieldset[disabled] .btn-link:focus {
   text-align: right;
 }
 
+.location-container-left-title {
+  font-family: Courier, monospace, serif ;
+  font-weight: 500;
+  line-height: 1.1;
+  color: #1b2a5a;
+  text-align: right;
+}
+
 .location-starburst-img {
   display: block;
   margin: 0px 0px 0px 50px;

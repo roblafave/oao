@@ -30,7 +30,9 @@ class Location extends Component {
 
 						<div className='row mb-50'>
 							<div className='col-sm-6 location-container-left mt-30'>
-								<b>h &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; n &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; l &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; i</b>
+								<div className='location-container-left-title'>
+									<b>h &nbsp;&nbsp; a &nbsp;&nbsp; n &nbsp;&nbsp; a &nbsp;&nbsp; l &nbsp;&nbsp; e &nbsp;&nbsp; i</b>
+								</div>
 								<br/>
 								5-5161 suite 210 kuhio hwy
 								<br/>
