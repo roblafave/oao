@@ -8,9 +8,17 @@ import appState from './appState';
 // Static Pages
 import Home from './pages/Home';
 import About from './pages/About';
-import Treatments from './pages/Treatments';
 import Book from './pages/Book';
 import Location from './pages/Location';
+import Treatments from './pages/Treatments';
+import TreatmentsSkinBrushing from './pages/TreatmentsSkinBrushing';
+import TreatmentsEndermologie from './pages/TreatmentsEndermologie';
+import TreatmentsCryo from './pages/TreatmentsCryo';
+import TreatmentsInfrared from './pages/TreatmentsInfrared';
+import TreatmentsFacial from './pages/TreatmentsFacial';
+import TreatmentsMicrocurrent from './pages/TreatmentsMicrocurrent';
+import TreatmentsRadiofrequency from './pages/TreatmentsRadiofrequency';
+import TreatmentsLed from './pages/TreatmentsLed';
 
 import WavePreSignup from './pages/WavePreSignup';
 import EmailCapture from './pages/EmailCapturePage';
@@ -39,6 +47,14 @@ const SignupStudent = ({ children }) => <div>{children}</div>;
 
 let pageMeta = { /* browser title, page header */
   '/treatments': { title: 'Treatments', header: 'Treatments' },
+  '/treatments/skinbrushing': { title: 'Skin Brushing', header: 'Skin Brushing' },
+  '/treatments/endermologie': { title: 'Endermologie', header: 'Endermologie' },
+  '/treatments/sauna': { title: 'Cryo Sauna', header: 'Cryo Sauna' },
+  '/treatments/infrared': { title: 'Infrared Sauna', header: 'Infrared Sauna' },
+  '/treatments/facial': { title: 'Facial', header: 'Facial' },
+  '/treatments/microcurrent': { title: 'Microcurrent', header: 'Microcurrent' },
+  '/treatments/radiofrequency': { title: 'Radio Frequency', header: 'Radio Frequency' },
+  '/treatments/led': { title: 'LED', header: 'LED' },
   '/location': { title: 'Location', header: 'Location' },
   '/wave/login': { title: 'Login', header: 'Login' },
   default: { title: 'Skin & Body Care', header: 'Skin & Body Care' },
@@ -82,9 +98,18 @@ ReactDOM.render(
       <Route path='/changelogin' component={ChangeLogin}  onEnter={updateTitle} />
 
 			<Route path='/about' component={About}  onEnter={updateTitle} />
-			<Route path='/treatments' component={Treatments}  onEnter={updateTitle} />
 			<Route path='/book' component={Book} onEnter={updateTitle} />
 			<Route path='/location' component={Location} onEnter={updateTitle} />
+      <Route path='/treatments' component={Treatments}  onEnter={updateTitle} />
+      <Route path='/treatments/skinbrushing' component={TreatmentsSkinBrushing}  onEnter={updateTitle} />
+      <Route path='/treatments/endermologie' component={TreatmentsEndermologie}  onEnter={updateTitle} />
+      <Route path='/treatments/cryo' component={TreatmentsCryo}  onEnter={updateTitle} />
+      <Route path='/treatments/infrared' component={TreatmentsInfrared}  onEnter={updateTitle} />
+      <Route path='/treatments/facial' component={TreatmentsFacial}  onEnter={updateTitle} />
+      <Route path='/treatments/microcurrent' component={TreatmentsMicrocurrent}  onEnter={updateTitle} />
+      <Route path='/treatments/radiofrequency' component={TreatmentsRadiofrequency}  onEnter={updateTitle} />
+      <Route path='/treatments/led' component={TreatmentsLed}  onEnter={updateTitle} />
+
 			<Route path='/welcome' component={Step1} onEnter={updateTitle} />
 			<Route path='/welcome/2' component={Step2} onEnter={updateTitle} />
 

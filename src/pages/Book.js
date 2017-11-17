@@ -45,8 +45,6 @@ class Book extends Component {
 					<div className='container'>
 						<div className='row hero-container-text'>
 							<div className='col-sm-12' ref={ el => this.iframeContainer = el}>
-								<h2>Book</h2>
-								<div className='divider-blue mt-30'></div>
 							</div>
 						</div>
 						<div className='row'>

@@ -7,7 +7,7 @@ import EmailCapture from '../components/EmailCapture';
 import Footer from '../components/Footer';
 
 // assets
-
+import starburst from '../assets/starburst.png';
 
 class About extends Component {
 
@@ -21,19 +21,75 @@ class About extends Component {
 				<section className='hero'>
 					<div className='container'>
 						<div className='row hero-container-text'>
-							<div className='col-sm-12'>
-								<h2>About</h2>
+							<div className='col-sm-12 hidden-sm hidden-xs'>
+								<h1><b>We offer a daily tradition</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<br/>
+								uniting treatments, products,
+								<br/>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tonics and teas.
+								</h1>
+							</div>
+							<div className='col-sm-12 visible-sm'>
+								<h3><b>We offer a daily tradition</b>
+								<br/>
+								uniting treatments, products,
+								<br/>
+								tonics and teas.
+								</h3>
+							</div>
+							<div className='col-sm-12 visible-xs'>
+								<h3><b>We offer a daily tradition</b>
+								<br/>
+								uniting treatments, products, tonics and teas.
+								</h3>
 							</div>
 						</div>
 						<div className='row'>
-							<div className='col-sm-12'>
-								<p>
-									Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.
-									<br /><br />
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-								</p>
+							<div className='col-sm-3  hidden-xs hidden-sm'><img src={ starburst } width={ '200px' }alt='ON & ON Starburst Graphic' className='location-starburst-img hidden-xs hidden-sm' /></div>
+							<div className='col-sm-3'></div>
+							<div className='col-sm-6 mt-80 about-body-text hidden-xs hidden-sm'>
+									Introducing a new era of skin & body health that encourages detoxification, cellular regeneration, and potent nourishment.
 								<br />
 							</div>
+							<div className='col-sm-6 visible-xs visible-sm about-body-text'>
+									Introducing a new era of skin & body health that encourages detoxification, cellular regeneration, and potent nourishment.
+								<br />
+							</div>
+						</div>
+						<div className='row mt-30'>
+							<div className='col-sm-3'></div>
+							<div className='col-sm-3  hidden-xs hidden-sm'><img src={ starburst } width={ '200px' }alt='ON & ON Starburst Graphic' className='location-starburst-img hidden-xs hidden-sm' /></div>
+
+							<div className='row'>
+								<div className='col-sm-1 hidden-xs hidden-sm'></div>
+								<div className='col-sm-5 mt-70 about-body-text hidden-xs hidden-sm'>
+								Efficient in time.
+								<br />
+								Effective in result.
+								</div>
+								<div className='col-sm-6 visible-xs visible-sm about-body-text'>
+								Efficient in time.
+								<br />
+								Effective in result.
+								</div>
+
+								<div className='col-sm-1 hidden-xs hidden-sm hidden-md'></div>
+								<div className='col-sm-3 mt-30 hidden-xs hidden-sm'>
+									<b><h3>
+									find&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+									<br/>
+									your
+									<br/>
+									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;combo
+									</h3></b>
+								</div>
+								<div className='col-sm-12 mt-30 visible-xs visible-sm about-body-text'>
+									<b><h3>find your combo</h3></b>
+								</div>
+							</div>
+
+
+
 						</div>
 					</div>
 				</section>

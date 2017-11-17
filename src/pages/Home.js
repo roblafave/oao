@@ -10,9 +10,6 @@ import React, { Component } from 'react';
 import Footer from '../components/Footer';
 
 // assets
-import lightbulb from '../assets/images/icons/site/lightbulb.svg';
-import network from '../assets/images/icons/site/network.svg';
-import rockstar from '../assets/images/icons/site/rockstar.svg';
 
 
 class Home extends Component {

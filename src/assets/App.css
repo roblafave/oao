@@ -651,28 +651,210 @@ fieldset[disabled] .btn-link:focus {
 }
 
 /* Treatments Styles */
-.treatments-hero-container-img {
-  position: relative;
-  background: #ffffff url('https://firebasestorage.googleapis.com/v0/b/on-and-on-7b40c.appspot.com/o/services.png?alt=media&token=07efab8d-931e-43fc-9356-ca8b28b50e23') center center/cover no-repeat;
-  width: 300px;
-  color: white;
+.treatment-container {
+  display: block;
+  text-align: center;
 }
 
+.treatment-title {
+  margin-top: 50px;
+}
+
+.treatment-subhead {
+  margin-top: 20px;
+}
+
+.treatment-combo {
+  margin-top: 20px;
+}
+
+.treatment-body {
+  margin-top: 0px;
+}
+
+
 @media (min-width: 500px) {
-  .treatments-hero-container-img {
-    min-height: 250px;
+  .treatment-container {
   }
 }
 
 @media (min-width: 768px) {
-  .treatments-hero-container-img {
-    min-height: 350px;
+  .treatment-container {
+    min-height: 510px;
+    background: rgba(247,240,222,1) url('https://firebasestorage.googleapis.com/v0/b/on-and-on-7b40c.appspot.com/o/treatmentoctagon.png?alt=media&token=e7cbcf22-6250-4699-9cde-e52caae30a82') center top no-repeat;
+    background-size: 70% auto;
+  }
+
+  .treatment-title {
+    margin-top: 130px;
+  }
+
+  .treatment-subhead {
+    margin-top: 30px;
+  }
+
+  .treatment-combo {
+    margin-top: 30px;
+  }
+
+  .treatment-body {
+    margin-top: 0px;
+  }
+
+  .treatment-img-overlay {
+    z-index: 1000;
+    position: static;
+    width: 100%;
+    height: 510px;
+    margin-top: -395px;
+    left: 0;
+    opacity: .5;
+  }
+
+  .treatment-link-skinbrushing {
+    display: block;
+    margin: 10px 0 0 200px;
+    height: 60px;
+    width: 130px;
+  }
+
+  .treatment-link-endermologie {
+    display: block;
+    margin: -60px 0 0 390px;
+    height: 60px;
+    width: 120px;
+  }
+
+  .treatment-link-cryo {
+    display: block;
+    margin: 40px 0 0 90px;
+    height: 100px;
+    width: 100px;
+  }
+
+  .treatment-link-infrared {
+    display: block;
+    margin: -110px 0 0 520px;
+    height: 130px;
+    width: 100px;
+  }
+
+  .treatment-link-facial {
+    display: block;
+    margin: 70px 0 0 100px;
+    height: 80px;
+    width: 80px;
+  }
+
+  .treatment-link-microcurrent {
+    display: block;
+    margin: -90px 0 0 530px;
+    height: 120px;
+    width: 80px;
+  }
+
+  .treatment-link-radiofrequency {
+    display: block;
+    margin: 20px 0 0 200px;
+    height: 80px;
+    width: 130px;
+  }
+
+  .treatment-link-led {
+    display: block;
+    margin: -70px 0 0 410px;
+    height: 70px;
+    width: 70px;
   }
 }
 
 @media (min-width: 992px) {
-  .treatments-hero-container-img {
-    min-height: 450px;
+  .treatment-container {
+    min-height: 660px;
+    background: rgba(247,240,222,1) url('https://firebasestorage.googleapis.com/v0/b/on-and-on-7b40c.appspot.com/o/treatmentoctagon.png?alt=media&token=e7cbcf22-6250-4699-9cde-e52caae30a82') center top no-repeat;
+    background-size: 70% auto;
+  }
+
+  .treatment-title {
+    margin-top: 200px;
+  }
+
+  .treatment-subhead {
+    margin-top: 30px;
+  }
+
+  .treatment-combo {
+    margin-top: 50px;
+  }
+
+  .treatment-body {
+    margin-top: 0px;
+  }
+
+  .treatment-img-overlay {
+    z-index: 1000;
+    position: static;
+    width: 100%;
+    height: 660px;
+    margin-top: -445px;
+    left: 0;
+    opacity: 0.5;
+  }
+
+  .treatment-link-skinbrushing {
+    display: block;
+    margin: 0 0 0 250px;
+    height: 100px;
+    width: 200px;
+  }
+
+  .treatment-link-endermologie {
+    display: block;
+    margin: -100px 0 0 500px;
+    height: 100px;
+    width: 200px;
+  }
+
+  .treatment-link-cryo {
+    display: block;
+    margin: 25px 0 0 100px;
+    height: 150px;
+    width: 150px;
+  }
+
+  .treatment-link-infrared {
+    display: block;
+    margin: -150px 0 0 700px;
+    height: 170px;
+    width: 140px;
+  }
+
+  .treatment-link-facial {
+    display: block;
+    margin: 100px 0 0 125px;
+    height: 100px;
+    width: 100px;
+  }
+
+  .treatment-link-microcurrent {
+    display: block;
+    margin: -120px 0 0 680px;
+    height: 150px;
+    width: 120px;
+  }
+
+  .treatment-link-radiofrequency {
+    display: block;
+    margin: 30px 0 0 250px;
+    height: 100px;
+    width: 180px;
+  }
+
+  .treatment-link-led {
+    display: block;
+    margin: -100px 0 0 530px;
+    height: 100px;
+    width: 100px;
   }
 }
 
@@ -805,12 +987,9 @@ fieldset[disabled] .btn-link:focus {
   }
 }
 
-.team {
-
-}
-
-.team-member-container {
-
+.about-body-text {
+  text-align: center;
+  font-size: 18px;
 }
 
 .team-member-img {
@@ -2139,6 +2318,54 @@ select {
 
 .mt-120 {
   margin-top: 120px;
+}
+
+.mt-neg-10 {
+  margin-top: -10px;
+}
+
+.mt-neg-20 {
+  margin-top: -20px;
+}
+
+.mt-neg-30 {
+  margin-top: -30px;
+}
+
+.mt-neg-40 {
+  margin-top: -40px;
+}
+
+.mt-neg-50 {
+  margin-top: -50px;
+}
+
+.mt-neg-60 {
+  margin-top: -60px;
+}
+
+.mt-neg-70 {
+  margin-top: -70px;
+}
+
+.mt-neg-80 {
+  margin-top: -80px;
+}
+
+.mt-neg-90 {
+  margin-top: -90px;
+}
+
+.mt-neg-100 {
+  margin-top: -100px;
+}
+
+.mt-neg-110 {
+  margin-top: -110px;
+}
+
+.mt-neg-120 {
+  margin-top: -120px;
 }
 
 .mb-0 {
