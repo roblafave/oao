@@ -25,7 +25,7 @@ class TreatmentsCryo extends Component {
 							<div className='row'>
 								<div className='col-sm-3'></div>
 								<div className='col-sm-6'>
-									<div className='treatment-title' style={{ marginTop: '50px' }}><h3><b>Cryo Sauna</b></h3></div>
+									<div className='treatment-title' style={{ marginTop: '70px' }}><h3><b>Cryo Sauna</b></h3></div>
 									<div className='treatment-subhead' style={{ marginTop: '20px' }}>
 										Kickstart
 										<br/>

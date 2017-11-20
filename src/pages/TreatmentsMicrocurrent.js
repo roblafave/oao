@@ -25,7 +25,7 @@ class TreatmentsMicrocurrent extends Component {
 							<div className='row'>
 								<div className='col-sm-3'></div>
 								<div className='col-sm-6'>
-									<div className='treatment-title' style={{ marginTop: '140px' }}><h3><b>Microcurrent</b></h3></div>
+									<div className='treatment-title' style={{ marginTop: '160px' }}><h3><b>Microcurrent</b></h3></div>
 									<div className='treatment-subhead'>
 										Gentle and potent
 										<br/>
