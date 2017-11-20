@@ -91,7 +91,7 @@ class Navbar extends Component {
 							<li><Link to="/about">about</Link> </li>
 							<li><Link to="/treatments">treatments</Link> </li>
 							<li><Link to="/book">book</Link></li>
-							<li><Link to="/faq">faq</Link></li>
+
 							<li><Link to="/location">location</Link></li>
 						</ul>
 					</div>
@@ -121,36 +121,20 @@ const Mobnav = observer(({ close, waveParticipant, avatar, userMatchInfo, user }
 	return (
 		 <div className="navbar-mobile visible-xs-block">
 			<div className="container">
-				{appState.userMeta.email &&
-					<span>
-						{avatar &&
-						<Link onClick={close} to='/settings'>
-							<div className='pull-left'
-								style={{
-								margin: '15px 0 0 0',
-								width: 60, height: 60,
-								backgroundImage: `url(${avatar})`,
-								backgroundPosition: 'center',
-								backgroundSize: 'cover',
-								borderRadius: '50px'
-								}}>
-							</div>
-
-						</Link>}
-						<Link onClick={close} to='/settings'><p className="navbar-mobile-name">{user.firstName} {user.lastName}</p></Link>
-						<Link onClick={close} to='/settings'><p className="navbar-mobile-email">{user.email}</p></Link>
-						<hr/>
-					</span>
-				}
-
 					<div>
 						<ul className="nav navbar-nav nav-mobile-links">
 							<li><Link className='' onClick={close} to="/">home</Link> </li>
 							<li><Link onClick={close} to="/about">about</Link></li>
-							<li><Link onClick={close} to="/treatments">treatments</Link></li>
 							<li><Link onClick={close} to="/book">book</Link></li>
-							<li><Link onClick={close} to="/faq">faq</Link></li>
 							<li><Link onClick={close} to="/location">location</Link></li>
+							<li><Link onClick={close} to="/treatments/endermologie">endermologie</Link></li>
+							<li><Link onClick={close} to="/treatments/infrared">infrared sauna</Link></li>
+							<li><Link onClick={close} to="/treatments/microcurrent">microcurrent</Link></li>
+							<li><Link onClick={close} to="/treatments/led">led</Link></li>
+							<li><Link onClick={close} to="/treatments/radiofrequency">radio frequency</Link></li>
+							<li><Link onClick={close} to="/treatments/facial">facial</Link></li>
+							<li><Link onClick={close} to="/treatments/cryo">cryo sauna</Link></li>
+							<li><Link onClick={close} to="/treatments/skinbrushing">skin brushing</Link></li>
 						</ul>
 							{appState.userMeta.emailauth &&
 								<span>
