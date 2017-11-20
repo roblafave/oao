@@ -25,11 +25,24 @@ class TreatmentsEndermologie extends Component {
 							<div className='row'>
 								<div className='col-sm-3'></div>
 								<div className='col-sm-6'>
-									<div className='treatment-title'><h3><b>Endermologie</b></h3></div>
-									<div className='treatment-subhead'>Celebrated for its ability to accelerate circulation, energize and gently exfoliate skins.</div>
-									<div className='treatment-combo'><h5><b>&#123; Skin Brushing x Endermologie x Infrared Sauna &#125;</b></h5></div>
-									<div className='treatment-body'>Take home an Iris Hantverk skin brush with an In Fiore body balm for a daily ritual that encourages lymphatic circulation and soft supple skin.</div>
+									<div className='treatment-title' style={{ marginTop: '20px' }}><h3><b>Endermologie</b></h3></div>
+									<div className='treatment-subhead' style={{ marginTop: '10px' }}>
+										1-2x per week
+										<br/>
+										60 minute treatments available
+										<br/><br/>
+										Endermologie is an ON&ON team favorite. Created to encourage lymphatic circulation, endermologie boosts the production of collagen, elastin and hyaluronic acid which in turn firms skin.
+										<br/><br/>
+										Respecting of the skin’s ecology and physiology, this treatment nourishes the whole system and releases areas of stored fat that are resistant to diet and exercise.
+										<br/><br/>
+										A great option pre or post air travel. Use as a regular part of your weekly routine for relaxing and detoxifying.
+									</div>
+									<div className='treatment-combo' style={{ marginTop: '20px' }}><h5><b>&#123; Endermologie x Infrared Sauna &#125;</b></h5></div>
+									<div className='treatment-body'>For an after-treatment boost book an infrared sauna. Sweating is a great way to compliment lymphatic circulation. Going for a walk is good too.
+									<br/><br/>
+									We love sharing our pantry. Enjoy a moon juice adaptogenic dust, or a Kor turmeric shot.</div>
 								</div>
+
 							</div>
 							<div className='treatment-img-overlay'>
 								<Link to="/treatments/skinbrushing" className='treatment-link-skinbrushing'></Link>

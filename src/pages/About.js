@@ -1,6 +1,6 @@
 // react
 import React, { Component } from 'react';
-// import { Link } from 'react-router';
+import { Link } from 'react-router';
 
 // components
 import EmailCapture from '../components/EmailCapture';
@@ -62,7 +62,7 @@ class About extends Component {
 
 							<div className='row'>
 								<div className='col-sm-1 hidden-xs hidden-sm'></div>
-								<div className='col-sm-5 mt-70 about-body-text hidden-xs hidden-sm'>
+								<div className='col-sm-5 mt-40 about-body-text hidden-xs hidden-sm'>
 								Efficient in time.
 								<br />
 								Effective in result.
@@ -75,16 +75,16 @@ class About extends Component {
 
 								<div className='col-sm-1 hidden-xs hidden-sm hidden-md'></div>
 								<div className='col-sm-3 mt-30 hidden-xs hidden-sm'>
-									<b><h3>
+									<Link to="/treatments"><b><h3>
 									find&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 									<br/>
 									your
 									<br/>
 									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;combo
-									</h3></b>
+									</h3></b></Link>
 								</div>
 								<div className='col-sm-12 mt-30 visible-xs visible-sm about-body-text'>
-									<b><h3>find your combo</h3></b>
+									<Link to="/treatments"><b><h3>find your combo</h3></b></Link>
 								</div>
 							</div>
 

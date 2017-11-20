@@ -9,7 +9,7 @@ import Footer from '../components/Footer';
 
 
 
-class Treatments extends Component {
+class TreatmentsSkinBrushing extends Component {
 
 	// constructor(props) {
 	//	 super(props);
@@ -18,29 +18,34 @@ class Treatments extends Component {
 	render() {
 		return (
 			<div className='bg-tan'>
-				<section className='hero'>
-					<div className='container'>
-						<div className='row hero-container-text'>
-							<div className='col-sm-12'>
-								<h2>Treatments</h2>
-							</div>
-						</div>
+			<section className='hero'>
+				<div className='container'>
 
-
+					<div className='treatment-container'>
 						<div className='row'>
-							<div className='col-sm-12 center'>
-							<center>
-							<Link to="/book" className=''><img src={ 'https://firebasestorage.googleapis.com/v0/b/on-and-on-7b40c.appspot.com/o/services.png?alt=media&token=07efab8d-931e-43fc-9356-ca8b28b50e23' } style={{ width: 400 }} alt="services" /></Link></center>
+							<div className='col-sm-3'></div>
+							<div className='col-sm-6'>
+								<div className='treatment-title'></div>
+								<div className='treatment-subhead'></div>
+								<div className='treatment-combo'></div>
+								<div className='treatment-body'></div>
 							</div>
 						</div>
+						<div className='treatment-img-overlay'>
+							<Link to="/treatments/skinbrushing" className='treatment-link-skinbrushing'></Link>
+							<Link to="/treatments/endermologie" className='treatment-link-endermologie'></Link>
+							<Link to="/treatments/cryo" className='treatment-link-cryo'></Link>
+							<Link to="/treatments/infrared" className='treatment-link-infrared'></Link>
+							<Link to="/treatments/facial" className='treatment-link-facial'></Link>
+							<Link to="/treatments/microcurrent" className='treatment-link-microcurrent'></Link>
+							<Link to="/treatments/radiofrequency" className='treatment-link-radiofrequency'></Link>
+							<Link to="/treatments/led" className='treatment-link-led'></Link>
+						</div>
+
 					</div>
-					<div className='row mt-50 mb-30'>
-					<div className='col-sm-2'></div>
-					<div className='col-sm-8'>
-					<p>We invite you to join On &amp; On in our no tip culture. For information on packages, memberships & private parties, please contact us at <a href="mailto:info@on-and-on.co"  target="_blank">info@on-and-on.co</a> or <a href="tel:1-808-826-4444">808.826.4444</a>.</p>
-					</div>
-					</div>
-				</section>
+
+				</div>
+			</section>
 
 
 				<Footer />
@@ -49,4 +54,4 @@ class Treatments extends Component {
 	}
 }
 
-export default Treatments;
+export default TreatmentsSkinBrushing;

@@ -25,10 +25,22 @@ class TreatmentsInfrared extends Component {
 							<div className='row'>
 								<div className='col-sm-3'></div>
 								<div className='col-sm-6'>
-									<div className='treatment-title'><h3><b>Infrared Sauna</b></h3></div>
-									<div className='treatment-subhead'>Celebrated for its ability to accelerate circulation, energize and gently exfoliate skins.</div>
-									<div className='treatment-combo'><h5><b>&#123; Skin Brushing x Endermologie x Infrared Sauna &#125;</b></h5></div>
-									<div className='treatment-body'>Take home an Iris Hantverk skin brush with an In Fiore body balm for a daily ritual that encourages lymphatic circulation and soft supple skin.</div>
+									<div className='treatment-title' style={{ marginTop: '30px' }}><h3><b>Infrared Sauna</b></h3></div>
+									<div className='treatment-subhead' style={{ marginTop: '20px' }}>
+										Regular sweating leads to better sweating
+										<br/><br/>
+										2-4x times per week
+										<br/><br/>
+										Infrared saunas descend from an ancient practice of deliberate sweating.
+										Watch a movie, listen to music, or read while while relaxing,
+										detoxifying, burning calories, and easing soreness.
+										<br/><br/>
+										Cathartic and centering, step back into the world with restored purpose and promise, bringing the life you want to make into focus, from the inside out.
+										<br/><br/>
+										A simple process that can renew who you are & what you do.
+									</div>
+									<div className='treatment-combo' style={{ marginTop: '20px' }}><h5><b>&#123; Endermologie x Infrared &#125;</b></h5></div>
+									<div className='treatment-body'>We recommend layering Infrared and Endermologie. Endermologie coaxes the lymphatic system to expel toxins and metals stored in your system. The infrared sauna expedites how your body flushes it all out. These two work together making for an advanced and productive sweat.</div>
 								</div>
 							</div>
 							<div className='treatment-img-overlay'>

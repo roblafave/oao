@@ -31,7 +31,7 @@ class Location extends Component {
 						<div className='row mb-50'>
 							<div className='col-sm-6 location-container-left mt-30'>
 								<div className='location-container-left-title'>
-									<b>h &nbsp;&nbsp; a &nbsp;&nbsp; n &nbsp;&nbsp; a &nbsp;&nbsp; l &nbsp;&nbsp; e &nbsp;&nbsp; i</b>
+									<b>h &nbsp; a &nbsp; n &nbsp; a &nbsp; l &nbsp; e &nbsp; i</b>
 								</div>
 								<br/>
 								5-5161 suite 210 kuhio hwy

@@ -25,10 +25,33 @@ class TreatmentsCryo extends Component {
 							<div className='row'>
 								<div className='col-sm-3'></div>
 								<div className='col-sm-6'>
-									<div className='treatment-title'><h3><b>Cryo Sauna</b></h3></div>
-									<div className='treatment-subhead'>Celebrated for its ability to accelerate circulation, energize and gently exfoliate skins.</div>
-									<div className='treatment-combo'><h5><b>&#123; Skin Brushing x Endermologie x Infrared Sauna &#125;</b></h5></div>
-									<div className='treatment-body'>Take home an Iris Hantverk skin brush with an In Fiore body balm for a daily ritual that encourages lymphatic circulation and soft supple skin.</div>
+									<div className='treatment-title' style={{ marginTop: '50px' }}><h3><b>Cryo Sauna</b></h3></div>
+									<div className='treatment-subhead' style={{ marginTop: '20px' }}>
+										Kickstart
+										<br/>
+										1x per day
+										<br/>
+										3 minute sessions
+										<br/><br/>
+										Cryo is a modern method of using cold elements to ease tension and reduce inflammation. We invite guests to listen to a favorite song while invigorating their circulation and well being.
+										<br/><br/>
+										Encourage blood to circulate, soothe tight muscles and joints, refresh and flush the body with oxygen and nutrients. Pre or post workout.
+										<br/><br/>
+										Cryo is a fun thing to do solo, on a date or with friends.
+										<br/><br/>
+										For enthusiasts, cryo is possible every four hours.
+										<br/><br/>
+										Walk out of cryo and into the lab for a tea.
+										<br/><br/>
+										Cryo pairs well with,
+										<br/>
+										4-2-4 In Fiore facial, infrared sauna, and LED.
+									</div>
+									<div className='treatment-combo'></div>
+									<div className='treatment-body'></div>
+
+
+
 								</div>
 							</div>
 							<div className='treatment-img-overlay'>

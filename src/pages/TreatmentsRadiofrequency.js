@@ -25,10 +25,18 @@ class TreatmentsRadiofrequency extends Component {
 							<div className='row'>
 								<div className='col-sm-3'></div>
 								<div className='col-sm-6'>
-									<div className='treatment-title'><h3><b>Radio Frequency</b></h3></div>
-									<div className='treatment-subhead'>Celebrated for its ability to accelerate circulation, energize and gently exfoliate skins.</div>
-									<div className='treatment-combo'><h5><b>&#123; Skin Brushing x Endermologie x Infrared Sauna &#125;</b></h5></div>
-									<div className='treatment-body'>Take home an Iris Hantverk skin brush with an In Fiore body balm for a daily ritual that encourages lymphatic circulation and soft supple skin.</div>
+									<div className='treatment-title' style={{ marginTop: '130px' }}><h3><b>Radio Frequency</b></h3></div>
+									<div className='treatment-subhead'>
+										Restore Collagen and Elastin
+										<br/>
+										1-2x times a week
+										<br/>
+										60, 90 minute treatments available
+										<br/><br/>
+										Radiofrequency is where we go deeper, using an advanced 3Deep handpiece to stimulate collagen and elastin production. No need to numb. Firm and tighten face and body.
+									</div>
+									<div className='treatment-combo'><h5><b>&#123; Radiofrequency x Microcurrent Facial &#125;</b></h5></div>
+									<div className='treatment-body'>Alternating weekly treatments between Radiofrequency, Microcurrent and Facials offers different collagen building supports.</div>
 								</div>
 							</div>
 							<div className='treatment-img-overlay'>

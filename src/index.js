@@ -46,6 +46,7 @@ const SignupStudent = ({ children }) => <div>{children}</div>;
 // const Advisor = ({ children }) => <div>{children}</div>;
 
 let pageMeta = { /* browser title, page header */
+  '/': { title: 'Skin & Body Care', header: 'Skin & Body Care' },
   '/treatments': { title: 'Treatments', header: 'Treatments' },
   '/treatments/skinbrushing': { title: 'Skin Brushing', header: 'Skin Brushing' },
   '/treatments/endermologie': { title: 'Endermologie', header: 'Endermologie' },
@@ -84,7 +85,7 @@ function updateTitle() {
 ReactDOM.render(
 	<Router onUpdate={() => window.scrollTo(0, 0)} history={browserHistory}>
 		<Route path='/' component={App}>
-			<IndexRoute component={Home} />
+			<IndexRoute component={Home} onEnter={updateTitle} />
 
 			<Route path='/welcome' component={Signup} onEnter={updateTitle}>
 				<IndexRoute component={Step1} />

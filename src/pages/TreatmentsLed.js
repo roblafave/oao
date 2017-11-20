@@ -25,10 +25,25 @@ class TreatmentsLed extends Component {
 							<div className='row'>
 								<div className='col-sm-3'></div>
 								<div className='col-sm-6'>
-									<div className='treatment-title'><h3><b>LED</b></h3></div>
-									<div className='treatment-subhead'>Celebrated for its ability to accelerate circulation, energize and gently exfoliate skins.</div>
-									<div className='treatment-combo'><h5><b>&#123; Skin Brushing x Endermologie x Infrared Sauna &#125;</b></h5></div>
-									<div className='treatment-body'>Take home an Iris Hantverk skin brush with an In Fiore body balm for a daily ritual that encourages lymphatic circulation and soft supple skin.</div>
+									<div className='treatment-title' style={{ marginTop: '30px' }}><h3><b>LED</b></h3></div>
+									<div className='treatment-subhead' style={{ marginTop: '20px' }}>
+									A light source for skin
+									<br/>
+									2-3x per week
+									<br/>
+									15, 30 minute treatments available
+									<br/><br/>
+									Using tech developed together with NASA, LED emits patterns of light to energize cells. Blue light reduces inflamed acne. Red light restores collagen and elastin. Infrared relieves muscle pain and stiffness.
+									<br/><br/>
+									Tuck into our cozy LED room and drift away while listening to an ON & ON curated playlist.
+									<br/><br/>
+									Calm fine lines and bolster growth of collagen and elastin, decrease inflammation and pain in tight muscles and sore joints.
+									<br/><br/>
+									Walk away in 30 minutes with glowy skin.</div>
+									<div className='treatment-combo' style={{ marginTop: '20px' }}><h5><b>&#123; Microcurrent x LED &#125;</b></h5></div>
+									<div className='treatment-body'>LED amplifies microcurrent and facials.
+									<br/>
+									Combine these forces.</div>
 								</div>
 							</div>
 							<div className='treatment-img-overlay'>

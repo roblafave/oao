@@ -25,10 +25,19 @@ class TreatmentsMicrocurrent extends Component {
 							<div className='row'>
 								<div className='col-sm-3'></div>
 								<div className='col-sm-6'>
-									<div className='treatment-title'><h3><b>Microcurrent</b></h3></div>
-									<div className='treatment-subhead'>Celebrated for its ability to accelerate circulation, energize and gently exfoliate skins.</div>
-									<div className='treatment-combo'><h5><b>&#123; Skin Brushing x Endermologie x Infrared Sauna &#125;</b></h5></div>
-									<div className='treatment-body'>Take home an Iris Hantverk skin brush with an In Fiore body balm for a daily ritual that encourages lymphatic circulation and soft supple skin.</div>
+									<div className='treatment-title' style={{ marginTop: '140px' }}><h3><b>Microcurrent</b></h3></div>
+									<div className='treatment-subhead'>
+										Gentle and potent
+										<br/>
+										1-2x per week
+										<br/>
+										30, 60 minute sessions available
+										<br/><br/>
+										A unique facial using two wands and a current to activate production of collagen and elastin.
+										<br/><br/>
+										A deeply restful and energizing facial.</div>
+									<div className='treatment-combo'><h5><b>&#123; Microcurrent x LED &#125;</b></h5></div>
+									<div className='treatment-body'>LED amplifies microcurrent and facials. Combine these forces.</div>
 								</div>
 							</div>
 							<div className='treatment-img-overlay'>

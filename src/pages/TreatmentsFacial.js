@@ -25,10 +25,16 @@ class TreatmentsFacial extends Component {
 							<div className='row'>
 								<div className='col-sm-3'></div>
 								<div className='col-sm-6'>
-									<div className='treatment-title'><h3><b>Facial</b></h3></div>
-									<div className='treatment-subhead'>Celebrated for its ability to accelerate circulation, energize and gently exfoliate skins.</div>
-									<div className='treatment-combo'><h5><b>&#123; Skin Brushing x Endermologie x Infrared Sauna &#125;</b></h5></div>
-									<div className='treatment-body'>Take home an Iris Hantverk skin brush with an In Fiore body balm for a daily ritual that encourages lymphatic circulation and soft supple skin.</div>
+									<div className='treatment-title' style={{ marginTop: '90px' }}><h3><b>Facials</b></h3></div>
+									<div className='treatment-subhead'>
+										We combine nourishing, potent, botanical products and novel practices to recalibrate your skin.
+										<br/><br/>
+										We infuse our facials with the highest quality ingredients including: Vintner's Daughter, In Fiore, Julisis, Odacite, Prada Labs, MUN, Pestle and Mortar, and Purity Herbs which are all available for purchase at our in-store lab.
+										<br/><br/>
+										Our in-house offerings are tailor-made and individually designed.
+									</div>
+									<div className='treatment-combo'><h5><b>&#123; Facials x Cryo x LED &#125;</b></h5></div>
+									<div className='treatment-body'>This super charged combo reinvigorates the skin, replenishes cellular energy molecules and increases circulation.</div>
 								</div>
 							</div>
 							<div className='treatment-img-overlay'>
