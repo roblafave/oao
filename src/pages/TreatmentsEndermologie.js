@@ -40,7 +40,7 @@ class TreatmentsEndermologie extends Component {
 									<div className='treatment-combo' style={{ marginTop: '20px' }}><h5><b>&#123; Endermologie x Infrared Sauna &#125;</b></h5></div>
 									<div className='treatment-body'>For an after-treatment boost book an infrared sauna. Sweating is a great way to compliment lymphatic circulation. Going for a walk is good too.
 									<br/><br/>
-									We love sharing our pantry. Enjoy a moon juice adaptogenic dust, or a Kor turmeric shot.</div>
+									We love sharing our pantry. Enjoy a moon juice adaptogenic dust, or a Kor turmeric shot.<br/><h5>Learn More &rarr;</h5></div>
 								</div>
 
 							</div>
