@@ -1,6 +1,6 @@
 // react
 import React, { Component } from 'react';
-import { Link } from 'react-router';
+// import { Link } from 'react-router';
 
 // components
 import Footer from '../components/Footer';
@@ -24,8 +24,19 @@ class Location extends Component {
 					<div className='container'>
 
 						<div className='row'>
+							<div className='col-sm-12 faq-nav'>
+								<a href="/faq#infrared" className='faq-link-infrared'>Infrared Sauna</a><br/>
+								<a href="/faq#endermologie" className='faq-link-endermologie'>Endermologie</a><br/>
+								<a href="/faq#led" className='faq-link-led'>LED</a><br/>
+								<a href="/faq#cryo" className='faq-link-cryo'>Cryo Sauna</a><br/>
+								<a href="/faq#radiofrequency" className='faq-link-radiofrequency'>Radio Frequency</a><br/>
+								<a href="/faq#microcurrent" className='faq-link-microcurrent'>Microcurrent</a><br/>
+							</div>
+						</div>
+
+						<div className='row'>
 							<div className='col-sm-12 faq-content'>
-								<h3>Infrared Sauna FAQ</h3>
+								<a name="infrared"><h3>Infrared Sauna FAQ</h3></a>
 								<h4>How is the infrared sauna different from a conventional sauna?</h4>
 								Infrared saunas use light waves to heat the body from the inside out.
 								<br/> They raise your core temperature as opposed to elevating your surface temperature.
@@ -72,7 +83,7 @@ class Location extends Component {
 								It’s better to wait until your body cools down on its own
 								<br/> —benefits are still active while your temperature is returning to its natural state.
 
-								<h3>Endermologie FAQ</h3>
+								<a name="endermologie"><h3>Endermologie FAQ</h3></a>
 								<h4>What is “endermologie”?</h4>
 								Endermologie is a safe way to stimulate lymphatic circulation,
 								<br/> increase mobility, smooth cellulite and support overall health and detoxification.
@@ -95,7 +106,7 @@ class Location extends Component {
 								<h4>Can men do this treatment too?</h4>
 								Yes. Stubborn fat and toxic deposits do not discriminate.
 
-								<h3>LED FAQ</h3>
+								<a name="led"><h3>LED FAQ</h3></a>
 								<h4>What is LED?</h4>
 								LED is a light emitting device that energizes cells to heal
 								<br/> skin as well as ease muscle and joint pain.
@@ -131,7 +142,7 @@ class Location extends Component {
 								<br/> Visit our lab after your treatment to enhance your glow
 								<br/> with our Odacite Carrot Serum and other oils and potions.
 
-								<h3>Cryo Sauna FAQ</h3>
+								<a name="cryo"><h3>Cryo Sauna FAQ</h3></a>
 								<h4>What is “cryo” ?</h4>
 								Cryo uses nitrogen to cool the chamber.
 								<br/> Nitrogen makes up 78% of our normal air.
@@ -151,7 +162,7 @@ class Location extends Component {
 								<h4>What do I wear?</h4>
 								We provide boots, socks, mittens and gloves. Otherwise, underwear.
 
-								<h3>Radiofrequency FAQ</h3>
+								<a name="radiofrequency"><h3>Radiofrequency FAQ</h3></a>
 								<h4>What is ‘radiofrequency’?</h4>
 								Radiofrequency is an electromagnetic energy
 								<br/> that has been used as a healing tool for decades.
@@ -172,7 +183,7 @@ class Location extends Component {
 								<h4>Is it safe?</h4>
 								This treatment is noninvasive and is safe in trained hands.
 
-								<h3>Microcurrent FAQ</h3>
+								<a name="microcurrent"><h3>Microcurrent FAQ</h3></a>
 								<h4>What is microcurrent?</h4>
 								Our microcurrent facial uses two handheld wands
 								<br/> and a current to reset skin elasticity and tone.

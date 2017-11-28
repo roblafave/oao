@@ -676,7 +676,7 @@ fieldset[disabled] .btn-link:focus {
   .treatment-container {
     position: relative;
     min-height: 660px;
-    background: rgba(247,240,222,1) url('https://firebasestorage.googleapis.com/v0/b/on-and-on-7b40c.appspot.com/o/treatmentoctagon.png?alt=media&token=e7cbcf22-6250-4699-9cde-e52caae30a82') center top no-repeat;
+    background: rgba(247,240,222,1) url('https://firebasestorage.googleapis.com/v0/b/on-and-on-7b40c.appspot.com/o/octagon%20shape.svg?alt=media&token=c3aae617-21b5-49fa-a199-7ffd8f38742a') center top no-repeat;
     background-size: 70% auto;
     /*border: 1px solid red;*/
   }
@@ -779,9 +779,25 @@ fieldset[disabled] .btn-link:focus {
 
 /* FAQ Styles */
 
-.faq-content h1, .faq-content h2, .faq-content h3, .faq-content h4, .faq-content h5, .faq-content h6 {
+.faq-content h3 {
+  margin: 70px 0px 30px 0px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.faq-content h1, .faq-content h2, .faq-content h4, .faq-content h5, .faq-content h6 {
     margin: 30px 0px 30px 0px;
     text-align: left;
+    font-weight: 700;
+}
+
+.faq-nav {
+  font-family: Courier, monospace, serif ;
+  font-weight: 500;
+  line-height: 1.1;
+  color: #1b2a5a;
+  font-size: 24px;
+  margin-top: 50px;
 }
 
 
@@ -1322,13 +1338,12 @@ select {
 
 .navbar-default .navbar-nav>li>a {
     color: #1b2a5a;
-    font-size: 16px;
+    font-size: 18px;
     margin: 30px 0px;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
     color: #334da5;
-    font-size: 16px;
 }
 
 .navbar-mobile-profile-photo {
