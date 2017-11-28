@@ -34,9 +34,9 @@ class Location extends Component {
 									<b>h &nbsp; a &nbsp; n &nbsp; a &nbsp; l &nbsp; e &nbsp; i</b>
 								</div>
 								<br/>
-								5-5161 suite 210 kuhio hwy
+								<a href='https://www.google.com/maps/place/5-5161+Kuhio+Hwy+%23210,+Hanalei,+HI+96714/@22.202636,-159.4987253,17z/data=!3m1!4b1!4m5!3m4!1s0x7c06fac6d2479425:0xf2622cf94b3bc177!8m2!3d22.202631!4d-159.4965313' target='_blank'>5-5161 suite 210 kuhio hwy
 								<br/>
-								hanalei, hi 96714
+								hanalei, hi 96714</a>
 								<br/><br/>
 								9:00am - 7:00pm
 								<br/>
