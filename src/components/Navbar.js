@@ -4,7 +4,7 @@ import { observer } from 'mobx-react';
 import firebase from 'firebase';
 import fire from '../fire';
 import appState from '../appState';
-import logo from '../assets/logo.svg';
+import logo from '../assets/OAOlogo.svg';
 import hamburger from '../assets/hamburger.svg';
 
 class Navbar extends Component {
