@@ -91,7 +91,7 @@ class Navbar extends Component {
 							<li><Link to="/about">about</Link> </li>
 							<li><Link to="/treatments">treatments</Link> </li>
 							<li><Link to="/book">book</Link></li>
-
+							<li><Link to="/faq">faq</Link></li>
 							<li><Link to="/location">location</Link></li>
 						</ul>
 					</div>
@@ -126,6 +126,7 @@ const Mobnav = observer(({ close, waveParticipant, avatar, userMatchInfo, user }
 							<li><Link className='' onClick={close} to="/">home</Link> </li>
 							<li><Link onClick={close} to="/about">about</Link></li>
 							<li><Link onClick={close} to="/book">book</Link></li>
+							<li><Link onClick={close} to="/faq">faq</Link></li>
 							<li><Link onClick={close} to="/location">location</Link></li>
 							<li><Link onClick={close} to="/treatments/endermologie">endermologie</Link></li>
 							<li><Link onClick={close} to="/treatments/infrared">infrared sauna</Link></li>
