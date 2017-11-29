@@ -804,7 +804,7 @@ fieldset[disabled] .btn-link:focus {
 .faq-anchor {
   display: block;
   position: relative;
-  top: -70px;
+  top: 0px;
   visibility: hidden;
 }
 
