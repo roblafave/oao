@@ -25,7 +25,8 @@ class TreatmentsInfrared extends Component {
 							<div className='row'>
 								<div className='col-sm-3'></div>
 								<div className='col-sm-6'>
-									<div className='treatment-title' style={{ marginTop: '70px' }}><h3><b>Infrared Sauna</b></h3></div>
+									<div className='treatment-title  hidden-xs hidden-sm' style={{ marginTop: '70px' }}><h3><b>Infrared Sauna</b></h3></div>
+									<div className='treatment-title  visible-xs visible-sm' style={{ marginTop: '0px' }}><h3><b>Infrared Sauna</b></h3></div>
 									<div className='treatment-subhead' style={{ marginTop: '20px' }}>
 										Regular sweating leads to better sweating
 										<br/><br/>

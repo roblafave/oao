@@ -25,7 +25,8 @@ class TreatmentsLed extends Component {
 							<div className='row'>
 								<div className='col-sm-3'></div>
 								<div className='col-sm-6'>
-									<div className='treatment-title' style={{ marginTop: '80px' }}><h3><b>LED</b></h3></div>
+									<div className='treatment-title hidden-xs hidden-sm' style={{ marginTop: '80px' }}><h3><b>LED</b></h3></div>
+									<div className='treatment-title visible-xs visible-sm' style={{ marginTop: '0px' }}><h3><b>LED</b></h3></div>
 									<div className='treatment-subhead' style={{ marginTop: '20px' }}>
 									A light source for skin
 									<br/>
