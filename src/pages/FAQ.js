@@ -36,7 +36,8 @@ class Location extends Component {
 
 						<div className='row'>
 							<div className='col-sm-12 faq-content'>
-								<a name="infrared"><h3>Infrared Sauna FAQ</h3></a>
+								<a name="infrared" className='faq-anchor'></a>
+								<h3>Infrared Sauna FAQ</h3>
 								<h4>How is the infrared sauna different from a conventional sauna?</h4>
 								Infrared saunas use light waves to heat the body from the inside out.
 								<br/> They raise your core temperature as opposed to elevating your surface temperature.
@@ -83,7 +84,8 @@ class Location extends Component {
 								It’s better to wait until your body cools down on its own
 								<br/> —benefits are still active while your temperature is returning to its natural state.
 
-								<a name="endermologie"><h3>Endermologie FAQ</h3></a>
+								<a name="endermologie" className='faq-anchor'></a>
+								<h3>Endermologie FAQ</h3>
 								<h4>What is “endermologie”?</h4>
 								Endermologie is a safe way to stimulate lymphatic circulation,
 								<br/> increase mobility, smooth cellulite and support overall health and detoxification.
@@ -106,7 +108,8 @@ class Location extends Component {
 								<h4>Can men do this treatment too?</h4>
 								Yes. Stubborn fat and toxic deposits do not discriminate.
 
-								<a name="led"><h3>LED FAQ</h3></a>
+								<a name="led" className='faq-anchor'></a>
+								<h3>LED FAQ</h3>
 								<h4>What is LED?</h4>
 								LED is a light emitting device that energizes cells to heal
 								<br/> skin as well as ease muscle and joint pain.
@@ -142,7 +145,8 @@ class Location extends Component {
 								<br/> Visit our lab after your treatment to enhance your glow
 								<br/> with our Odacite Carrot Serum and other oils and potions.
 
-								<a name="cryo"><h3>Cryo Sauna FAQ</h3></a>
+								<a name="cryo" className='faq-anchor'></a>
+								<h3>Cryo Sauna FAQ</h3>
 								<h4>What is “cryo” ?</h4>
 								Cryo uses nitrogen to cool the chamber.
 								<br/> Nitrogen makes up 78% of our normal air.
@@ -162,7 +166,8 @@ class Location extends Component {
 								<h4>What do I wear?</h4>
 								We provide boots, socks, mittens and gloves. Otherwise, underwear.
 
-								<a name="radiofrequency"><h3>Radiofrequency FAQ</h3></a>
+								<a name="radiofrequency" className='faq-anchor'></a>
+								<h3>Radiofrequency FAQ</h3>
 								<h4>What is ‘radiofrequency’?</h4>
 								Radiofrequency is an electromagnetic energy
 								<br/> that has been used as a healing tool for decades.
@@ -183,7 +188,8 @@ class Location extends Component {
 								<h4>Is it safe?</h4>
 								This treatment is noninvasive and is safe in trained hands.
 
-								<a name="microcurrent"><h3>Microcurrent FAQ</h3></a>
+								<a name="microcurrent" className='faq-anchor'></a>
+								<h3>Microcurrent FAQ</h3>
 								<h4>What is microcurrent?</h4>
 								Our microcurrent facial uses two handheld wands
 								<br/> and a current to reset skin elasticity and tone.
