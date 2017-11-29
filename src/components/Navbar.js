@@ -83,7 +83,7 @@ class Navbar extends Component {
 						<button type="button" className="navbar-toggle collapsed" onClick={this.openMobileNav.bind(this)}>
 							<img src={hamburger} alt=""/>
 						</button>
-						<Link to="/" className='navbar-brand'><img src={ logo } style={{ width: 170 }} alt="On & On" /></Link>
+						<Link to="/" className='navbar-brand'><img src={ logo } style={{ width: 170 }} alt="ON & ON" /></Link>
 					</div>
 
 					<div className="collapse navbar-collapse">
@@ -91,7 +91,6 @@ class Navbar extends Component {
 							<li><Link to="/about">about</Link> </li>
 							<li><Link to="/treatments">treatments</Link> </li>
 							<li><Link to="/book">book</Link></li>
-							<li><Link to="/faq">faq</Link></li>
 							<li><Link to="/location">location</Link></li>
 						</ul>
 					</div>
@@ -127,7 +126,6 @@ const Mobnav = observer(({ close, waveParticipant, avatar, userMatchInfo, user }
 							<li><Link onClick={close} to="/about">about</Link></li>
 							<li><Link onClick={close} to="/treatments">treatments</Link></li>
 							<li><Link onClick={close} to="/book">book</Link></li>
-							<li><Link onClick={close} to="/faq">faq</Link></li>
 							<li><Link onClick={close} to="/location">location</Link></li>
 							<li><Link onClick={close} to="/welcome">signup waiver</Link></li>
 						</ul>

@@ -23,7 +23,18 @@ class Location extends Component {
 				<section className='hero'>
 					<div className='container'>
 
-						<div className='row'>
+						<div className='row visible-xs visible-sm'>
+							<div className='col-sm-12 faq-nav'>
+								<a href="/faq#infrared" className=''>Infrared Sauna</a><br/>
+								<a href="/faq#endermologie" className=''>Endermologie</a><br/>
+								<a href="/faq#led" className=''>LED</a><br/>
+								<a href="/faq#cryo" className=''>Cryo Sauna</a><br/>
+								<a href="/faq#radiofrequency" className=''>Radio Frequency</a><br/>
+								<a href="/faq#microcurrent" className=''>Microcurrent</a><br/>
+							</div>
+						</div>
+
+						<div className='row hidden-xs hidden-sm'>
 							<div className='col-sm-12 faq-nav'>
 								<a href="/faq#infrared" className='faq-link-infrared'>Infrared Sauna</a><br/>
 								<a href="/faq#endermologie" className='faq-link-endermologie'>Endermologie</a><br/>

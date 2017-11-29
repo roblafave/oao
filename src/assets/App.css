@@ -789,6 +789,10 @@ fieldset[disabled] .btn-link:focus {
 
 /* FAQ Styles */
 
+.faq-content {
+  position: relative;
+}
+
 .faq-content h3 {
   margin: 70px 0px 30px 0px;
   text-align: center;
@@ -808,6 +812,7 @@ fieldset[disabled] .btn-link:focus {
   color: #1b2a5a;
   font-size: 24px;
   margin-top: 50px;
+  position: relative;
 }
 
 .faq-anchor {
@@ -824,6 +829,42 @@ fieldset[disabled] .btn-link:focus {
     top: 40px;
     visibility: hidden;
   }
+}
+
+.faq-link-infrared {
+  position: absolute;
+  top: 10px;
+  left: 50px;
+}
+
+.faq-link-endermologie {
+  position: absolute;
+  top: 10px;
+  left: 50px;
+}
+
+.faq-link-led {
+  position: absolute;
+  top: 10px;
+  left: 50px;
+}
+
+.faq-link-cryo {
+  position: absolute;
+  top: 10px;
+  left: 50px;
+}
+
+.faq-link-radiofrequency {
+  position: absolute;
+  top: 10px;
+  left: 50px;
+}
+
+.faq-link-microcurrent {
+  position: absolute;
+  top: 10px;
+  left: 50px;
 }
 
 
