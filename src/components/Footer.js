@@ -18,15 +18,15 @@ class Footer extends Component {
 					<hr className='footer-hr'/>
 
 					<div className='row mb-50 footer-contact-info'>
-						<div className='col-sm-4'><center><a href="tel:1-808-826-4444"><b>phone:</b> 808.826.4444</a></center></div>
+						<div className='col-sm-4 footer-nav-item'><center><a href="tel:1-808-826-4444"><b>phone:</b> 808.826.4444</a></center></div>
 						<div className='col-sm-4'>
 							<center>
 								<a href='https://www.instagram.com/onandon.co' target='_blank'>
-									<img src={ socialInstagramB } alt='On & On Health Spa Instagram' className='social-instagram-icon' />
+									<img src={ socialInstagramB } alt='On & On Health Spa Instagram' className='social-instagram-icon footer-nav-item' />
 								</a>
 							</center>
 						</div>
-						<div className='col-sm-4'><center><a href="mailto:info@on-and-on.co"  target="_blank"><b>email:</b> info@on-and-on.co</a></center></div>
+						<div className='col-sm-4 footer-nav-item'><center><a href="mailto:info@on-and-on.co"  target="_blank"><b>email:</b> info@on-and-on.co</a></center></div>
 					</div>
 
 					<section className='footer-legal-container mb-20'>
