@@ -31,7 +31,7 @@ class Footer extends Component {
 
 					<section className='footer-legal-container mb-20'>
 						<p>
-							<Link to="/welcome">Signup Waiver</Link>
+							<Link to="/welcome"><h4>Signup Waiver</h4></Link>
 							<br />
 							&copy; 2017 The Great Rearranged, LLC. All rights reserved.
 						</p>
