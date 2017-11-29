@@ -128,14 +128,7 @@ const Mobnav = observer(({ close, waveParticipant, avatar, userMatchInfo, user }
 							<li><Link onClick={close} to="/book">book</Link></li>
 							<li><Link onClick={close} to="/faq">faq</Link></li>
 							<li><Link onClick={close} to="/location">location</Link></li>
-							<li><Link onClick={close} to="/treatments/endermologie">endermologie</Link></li>
-							<li><Link onClick={close} to="/treatments/infrared">infrared sauna</Link></li>
-							<li><Link onClick={close} to="/treatments/microcurrent">microcurrent</Link></li>
-							<li><Link onClick={close} to="/treatments/led">led</Link></li>
-							<li><Link onClick={close} to="/treatments/radiofrequency">radio frequency</Link></li>
-							<li><Link onClick={close} to="/treatments/facial">facial</Link></li>
-							<li><Link onClick={close} to="/treatments/cryo">cryo sauna</Link></li>
-							<li><Link onClick={close} to="/treatments/skinbrushing">skin brushing</Link></li>
+							<li><Link onClick={close} to="/treatments">treatments</Link></li>
 							<li><Link onClick={close} to="/welcome">signup waiver</Link></li>
 						</ul>
 							{appState.userMeta.emailauth &&
