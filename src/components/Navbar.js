@@ -125,10 +125,10 @@ const Mobnav = observer(({ close, waveParticipant, avatar, userMatchInfo, user }
 						<ul className="nav navbar-nav nav-mobile-links">
 							<li><Link className='' onClick={close} to="/">home</Link> </li>
 							<li><Link onClick={close} to="/about">about</Link></li>
+							<li><Link onClick={close} to="/treatments">treatments</Link></li>
 							<li><Link onClick={close} to="/book">book</Link></li>
 							<li><Link onClick={close} to="/faq">faq</Link></li>
 							<li><Link onClick={close} to="/location">location</Link></li>
-							<li><Link onClick={close} to="/treatments">treatments</Link></li>
 							<li><Link onClick={close} to="/welcome">signup waiver</Link></li>
 						</ul>
 							{appState.userMeta.emailauth &&
