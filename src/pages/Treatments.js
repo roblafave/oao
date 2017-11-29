@@ -21,6 +21,19 @@ class TreatmentsSkinBrushing extends Component {
 			<section className='hero'>
 				<div className='container'>
 
+					<div className='row visible-xs visible-sm'>
+						<div className='col-sm-12 treatments-mob-nav'>
+							<Link to="/treatments/skinbrushing" className='treatment-link-skinbrushing'>Skin Brushing</Link><br/>
+							<Link to="/treatments/endermologie" className='treatment-link-endermologie'>Endermologie</Link><br/>
+							<Link to="/treatments/cryo" className='treatment-link-cryo'>Cryo Sauna</Link><br/>
+							<Link to="/treatments/infrared" className='treatment-link-infrared'>Infrared Sauna</Link><br/>
+							<Link to="/treatments/facial" className='treatment-link-facial'>Facial</Link><br/>
+							<Link to="/treatments/microcurrent" className='treatment-link-microcurrent'>Microcurrent</Link><br/>
+							<Link to="/treatments/radiofrequency" className='treatment-link-radiofrequency'>Radio Frequency</Link><br/>
+							<Link to="/treatments/led" className='treatment-link-led'>LED</Link><br/>
+						</div>
+					</div>
+
 					<div className='treatment-container'>
 						<div className='row'>
 							<div className='col-sm-3'></div>
