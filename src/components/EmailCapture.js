@@ -121,7 +121,7 @@ class EmailCapture extends Component {
 						 <div className='col-sm-3'></div>
 						 <div className='col-sm-6'>
 							<h3 className='email-capture-title mt-40'>Thank You for Signing Up!</h3>
-							<p className='center mt-20'>We'll keep you up to date on the latest with On & On services and products.</p>
+							<p className='center mt-20'>We'll keep you up to date on the latest with ON & ON services and products.</p>
 							<div className='email-capture-success'></div>
 						 </div>
 					 </div>

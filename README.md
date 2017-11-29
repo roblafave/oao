@@ -1,8 +1,8 @@
-# On & On [![Build Status](https://travis-ci.org/facebookincubator/create-react-app.svg?branch=master)](https://travis-ci.org/facebookincubator/create-react-app)
+# ON & ON [![Build Status](https://travis-ci.org/facebookincubator/create-react-app.svg?branch=master)](https://travis-ci.org/facebookincubator/create-react-app)
 
 ## What’s Inside?
 
-The On & On app leverages some of the most scalable and battle-tested technologies used by Google, Facebook, Netflix, LinkedIn, Yahoo!, Microsoft, Walmart, AirBnB and other top tech companies. Software, hardware, and other tools include:
+The ON & ON app leverages some of the most scalable and battle-tested technologies used by Google, Facebook, Netflix, LinkedIn, Yahoo!, Microsoft, Walmart, AirBnB and other top tech companies. Software, hardware, and other tools include:
 
 ### Software
 * [Javascript](https://www.javascript.com) - Language
@@ -28,7 +28,7 @@ All of the aforementioned libraries and tools are transitive dependencies of the
 * [Getting Started](#getting-started) – How to install the app and development environment.
 * [User Guide](#user-guide) – How to develop apps bootstrapped with Create React App.
 
-On & On works on MacOS, Windows, and Linux.  
+ON & ON works on MacOS, Windows, and Linux.  
 
 ## tl;dr
 

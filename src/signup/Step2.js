@@ -326,7 +326,7 @@ function termsContent(){
 				<br /><br />
 				<b>Maximum​ ​Liability​ ​for​ ​Claims</b>
 				<br />
-				On & On’s maximum aggregate liability to client related to or in connection with the procedures performed by the Released Parties On & On, and/or its owners, officers, will be limited to the total amount paid to On & On by client for the procedures described in this authorization and consent. I understand that this is a cap on the amount I may be entitled to receive if I prevail in a legal claim and not a refund policy.
+				ON & ON’s maximum aggregate liability to client related to or in connection with the procedures performed by the Released Parties ON & ON, and/or its owners, officers, will be limited to the total amount paid to ON & ON by client for the procedures described in this authorization and consent. I understand that this is a cap on the amount I may be entitled to receive if I prevail in a legal claim and not a refund policy.
 		</div>
 	)
 }

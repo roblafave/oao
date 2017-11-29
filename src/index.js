@@ -79,7 +79,7 @@ function updateTitle() {
   }
 
   appState.pageTitle = pageMeta[path].title;
-  document.getElementsByTagName('title')[0].innerText =  'On & On - ' + pageMeta[path].header;
+  document.getElementsByTagName('title')[0].innerText =  'ON & ON - ' + pageMeta[path].header;
 
   window.Intercom('update');
 }

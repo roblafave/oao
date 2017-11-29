@@ -22,7 +22,7 @@ class Footer extends Component {
 						<div className='col-sm-4'>
 							<center>
 								<a href='https://www.instagram.com/onandon.co' target='_blank'>
-									<img src={ socialInstagramB } alt='On & On Health Spa Instagram' className='social-instagram-icon footer-nav-item' />
+									<img src={ socialInstagramB } alt='ON & ON Instagram' className='social-instagram-icon footer-nav-item' />
 								</a>
 							</center>
 						</div>
