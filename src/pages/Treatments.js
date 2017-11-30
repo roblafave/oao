@@ -20,7 +20,9 @@ class TreatmentsSkinBrushing extends Component {
 			<div className='bg-tan'>
 			<section className='hero'>
 				<div className='container'>
-
+					<div className='navbar-oao-page-container'>
+						<div className='navbar-oao-link-active-treatments'></div>
+					</div>
 					<div className='row visible-xs visible-sm'>
 						<div className='col-sm-12 treatments-mob-nav'>
 							<Link to="/treatments/skinbrushing" className='treatment-link-skinbrushing'>Skin Brushing</Link><br/>

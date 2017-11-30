@@ -20,6 +20,9 @@ class About extends Component {
 			<div>
 				<section className='hero'>
 					<div className='container'>
+						<div className='navbar-oao-page-container'>
+							<div className='navbar-oao-link-active-about'></div>
+						</div>
 						<div className='row hero-container-text'>
 							<div className='col-sm-12 hidden-sm hidden-xs'>
 								<h1><b>We offer a daily tradition</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

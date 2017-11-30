@@ -87,12 +87,19 @@ class Navbar extends Component {
 					</div>
 
 					<div className="collapse navbar-collapse">
-						<ul className="nav navbar-nav navbar-right">
-							<li><Link to="/about">about</Link> </li>
-							<li><Link to="/treatments">treatments</Link> </li>
-							<li><Link to="/book">book</Link></li>
-							<li><Link to="/location">location</Link></li>
+						<ul className="nav navbar-nav navbar-right navbar-oao">
+							<li><Link className='navbar-oao-about' to="/about">about</Link> </li>
+							<span className='navbar-oao-stroke-about'></span>
+							<li><Link className='navbar-oao-treatments' to="/treatments">treatments</Link> </li>
+							<span className='navbar-oao-stroke-treatments'></span>
+							<li><Link className='navbar-oao-book' to="/book">book</Link></li>
+							<span className='navbar-oao-stroke-book'></span>
+							<li><Link className='navbar-oao-location' to="/location">location</Link></li>
 						</ul>
+
+						<div className='navbar-oao-treatments-stroke'></div>
+						<div className='navbar-oao-book-stroke'></div>
+						<div className='navbar-oao-location-stroke'></div>
 					</div>
 				</div>
 				{this.state.mobnav ?
@@ -122,7 +129,7 @@ const Mobnav = observer(({ close, waveParticipant, avatar, userMatchInfo, user }
 			<div className="container">
 					<div>
 						<ul className="nav navbar-nav nav-mobile-links">
-							<li><Link className='' onClick={close} to="/">home</Link> </li>
+							<li><Link onClick={close} to="/">home</Link> </li>
 							<li><Link onClick={close} to="/about">about</Link></li>
 							<li><Link onClick={close} to="/treatments">treatments</Link></li>
 							<li><Link onClick={close} to="/book">book</Link></li>

@@ -22,7 +22,9 @@ class Location extends Component {
 			<div>
 				<section className='hero'>
 					<div className='container'>
-
+						<div className='navbar-oao-page-container'>
+							<div className='navbar-oao-link-active-location'></div>
+						</div>
 						<div className='row hero-container-text'>
 							<div className='col-sm-12'>
 							</div>
