@@ -48,6 +48,8 @@ const SignupStudent = ({ children }) => <div>{children}</div>;
 
 let pageMeta = { /* browser title, page header */
   '/': { title: 'Skin & Body Care', header: 'Skin & Body Care' },
+  '/about': { title: 'About', header: 'About' },
+  '/book': { title: 'Book an Appointment', header: 'Book an Appointment' },
   '/treatments': { title: 'Treatments', header: 'Treatments' },
   '/treatments/skinbrushing': { title: 'Skin Brushing', header: 'Skin Brushing' },
   '/treatments/endermologie': { title: 'Endermologie', header: 'Endermologie' },
