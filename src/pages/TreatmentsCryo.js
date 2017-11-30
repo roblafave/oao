@@ -20,7 +20,9 @@ class TreatmentsCryo extends Component {
 			<div className='bg-tan'>
 				<section className='hero'>
 					<div className='container'>
-
+						<div className='navbar-oao-page-container'>
+							<div className='navbar-oao-link-active-treatments'></div>
+						</div>
 						<div className='treatment-container'>
 							<div className='row'>
 								<div className='col-sm-3'></div>
