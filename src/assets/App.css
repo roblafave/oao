@@ -999,6 +999,7 @@ fieldset[disabled] .btn-link:focus {
 .about-body-text {
   text-align: center;
   font-size: 22px;
+  color: #1b2a5a;
 }
 
 .team-member-img {
