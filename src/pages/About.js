@@ -24,7 +24,7 @@ class About extends Component {
 							<div className='navbar-oao-link-active-about'></div>
 						</div>
 						<div className='row hero-container-text'>
-							<div className='col-sm-12 hidden-sm hidden-xs'>
+							<div className='col-xs-12 hidden-xs hidden-sm'>
 								<h1><b>We offer a daily tradition</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 								<br/>
 								uniting treatments, products,
@@ -32,15 +32,15 @@ class About extends Component {
 								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tonics and teas.
 								</h1>
 							</div>
-							<div className='col-sm-12 visible-sm'>
-								<h3><b>We offer a daily tradition</b>
+							<div className='col-xs-12 visible-sm'>
+								<h2><b>We offer a daily tradition</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 								<br/>
 								uniting treatments, products,
 								<br/>
-								tonics and teas.
-								</h3>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tonics and teas.
+							</h2>
 							</div>
-							<div className='col-sm-12 visible-xs'>
+							<div className='col-xs-12 visible-xs'>
 								<h3><b>We offer a daily tradition</b>
 								<br/>
 								uniting treatments, products, tonics and teas.
@@ -48,36 +48,36 @@ class About extends Component {
 							</div>
 						</div>
 						<div className='row'>
-							<div className='col-sm-3  hidden-xs hidden-sm'><img src={ starburst } width={ '200px' }alt='ON & ON Starburst Graphic' className='location-starburst-img hidden-xs hidden-sm' /></div>
-							<div className='col-sm-3'></div>
-							<div className='col-sm-6 mt-80 about-body-text hidden-xs hidden-sm'>
+							<div className='col-xs-3  hidden-xs'><img src={ starburst } width={ '200px' }alt='ON & ON Starburst Graphic' className='location-starburst-img hidden-xs' /></div>
+							<div className='col-xs-3'></div>
+							<div className='col-xs-6 mt-80 about-body-text hidden-xs'>
 									Introducing a new era of skin & body health that encourages detoxification, cellular regeneration, and potent nourishment.
 								<br />
 							</div>
-							<div className='col-sm-6 visible-xs visible-sm about-body-text'>
+							<div className='col-xs-6 visible-xs about-body-text'>
 									Introducing a new era of skin & body health that encourages detoxification, cellular regeneration, and potent nourishment.
 								<br />
 							</div>
 						</div>
 						<div className='row mt-30'>
-							<div className='col-sm-3'></div>
-							<div className='col-sm-3  hidden-xs hidden-sm'><img src={ starburst } width={ '200px' }alt='ON & ON Starburst Graphic' className='location-starburst-img hidden-xs hidden-sm' /></div>
+							<div className='col-xs-3'></div>
+							<div className='col-xs-3  hidden-xs'><img src={ starburst } width={ '200px' }alt='ON & ON Starburst Graphic' className='location-starburst-img hidden-xs' /></div>
 
 							<div className='row'>
-								<div className='col-sm-1 hidden-xs hidden-sm'></div>
-								<div className='col-sm-5 mt-40 about-body-text hidden-xs hidden-sm'>
+								<div className='col-xs-1 hidden-xs'></div>
+								<div className='col-xs-5 mt-40 about-body-text hidden-xs'>
 								Efficient in time.
 								<br />
 								Effective in result.
 								</div>
-								<div className='col-sm-6 visible-xs visible-sm about-body-text'>
+								<div className='col-xs-6 visible-xs visible-sm about-body-text'>
 								Efficient in time.
 								<br />
 								Effective in result.
 								</div>
 
-								<div className='col-sm-1 hidden-xs hidden-sm hidden-md'></div>
-								<div className='col-sm-3 mt-30 hidden-xs hidden-sm'>
+								<div className='col-xs-1 hidden-xs hidden-md'></div>
+								<div className='col-xs-3 mt-30 hidden-xs'>
 									<Link to="/treatments"><b><h3>
 									find&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 									<br/>
@@ -86,7 +86,7 @@ class About extends Component {
 									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;combo
 									</h3></b></Link>
 								</div>
-								<div className='col-sm-12 mt-30 visible-xs visible-sm about-body-text'>
+								<div className='col-xs-12 mt-30 visible-xs visible-sm about-body-text'>
 									<Link to="/treatments"><b><h3>find your combo</h3></b></Link>
 								</div>
 							</div>
