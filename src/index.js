@@ -10,6 +10,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Book from './pages/Book';
 import Location from './pages/Location';
+import Testimonials from './pages/Testimonials';
 import FAQ from './pages/FAQ';
 import Treatments from './pages/Treatments';
 import TreatmentsSkinBrushing from './pages/TreatmentsSkinBrushing';
@@ -60,6 +61,7 @@ let pageMeta = { /* browser title, page header */
   '/treatments/radiofrequency': { title: 'Radio Frequency', header: 'Radio Frequency' },
   '/treatments/led': { title: 'LED', header: 'LED' },
   '/location': { title: 'Location', header: 'Location' },
+  '/testimonials': { title: 'Testimonials', header: 'Testimonials' },
   '/faq': { title: 'Frequently Asked Questions', header: 'Frequently Asked Questions' },
   '/wave/login': { title: 'Login', header: 'Login' },
   default: { title: 'Skin & Body Care', header: 'Skin & Body Care' },
@@ -105,6 +107,7 @@ ReactDOM.render(
 			<Route path='/about' component={About}  onEnter={updateTitle} />
 			<Route path='/book' component={Book} onEnter={updateTitle} />
 			<Route path='/location' component={Location} onEnter={updateTitle} />
+			<Route path='/testimonials' component={Testimonials} onEnter={updateTitle} />
 			<Route path='/faq' component={FAQ} onEnter={updateTitle} />
       <Route path='/treatments' component={Treatments}  onEnter={updateTitle} />
       <Route path='/treatments/skinbrushing' component={TreatmentsSkinBrushing}  onEnter={updateTitle} />
