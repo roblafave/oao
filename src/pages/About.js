@@ -70,7 +70,7 @@ class About extends Component {
 								<br />
 								Effective in result.
 								</div>
-								<div className='col-xs-6 visible-xs visible-sm about-body-text'>
+								<div className='col-xs-6 visible-xs about-body-text'>
 								Efficient in time.
 								<br />
 								Effective in result.
@@ -86,7 +86,7 @@ class About extends Component {
 									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;combo
 									</h3></b></Link>
 								</div>
-								<div className='col-xs-12 mt-30 visible-xs visible-sm about-body-text'>
+								<div className='col-xs-12 mt-30 visible-xs about-body-text'>
 									<Link to="/treatments"><b><h3>find your combo</h3></b></Link>
 								</div>
 							</div>
