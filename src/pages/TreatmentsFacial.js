@@ -27,8 +27,9 @@ class TreatmentsFacial extends Component {
 							<div className='row'>
 								<div className='col-sm-3'></div>
 								<div className='col-sm-6'>
-									<div className='treatment-title  hidden-xs hidden-sm' style={{ marginTop: '120px' }}><h3><b>Facials</b></h3></div>
-									<div className='treatment-title  visible-xs visible-sm' style={{ marginTop: '0px' }}><h3><b>Facials</b></h3></div>
+									<div className='treatment-title hidden-xs hidden-sm' style={{ marginTop: '120px' }}><h3><b>Facials</b></h3></div>
+									<div className='treatment-title visible-sm' style={{ marginTop: '80px' }}><h3><b>Facials</b></h3></div>
+									<div className='treatment-title visible-xs' style={{ marginTop: '0px' }}><h3><b>Facials</b></h3></div>
 									<div className='treatment-subhead'>
 										We combine nourishing, potent, botanical products and novel practices to recalibrate your skin.
 										<br/><br/>

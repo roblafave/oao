@@ -27,8 +27,8 @@ class TreatmentsSkinBrushing extends Component {
 							<div className='row'>
 								<div className='col-sm-3'></div>
 								<div className='col-sm-6'>
-									<div className='treatment-title hidden-xs hidden-sm' style={{ marginTop: '200px' }}><h3><b>Skin Brushing</b></h3></div>
-									<div className='treatment-title visible-xs visible-sm' style={{ marginTop: '0px' }}><h3><b>Skin Brushing</b></h3></div>
+									<div className='treatment-title hidden-xs' style={{ marginTop: '200px' }}><h3><b>Skin Brushing</b></h3></div>
+									<div className='treatment-title visible-xs' style={{ marginTop: '0px' }}><h3><b>Skin Brushing</b></h3></div>
 									<div className='treatment-subhead'>Celebrated for its ability to accelerate circulation, energize and gently exfoliate skins.</div>
 									<div className='treatment-combo'><h5><b>&#123; Skin Brushing x Endermologie x Infrared Sauna &#125;</b></h5></div>
 									<div className='treatment-body'>Take home an Iris Hantverk skin brush with an In Fiore body balm for a daily ritual that encourages lymphatic circulation and soft supple skin.</div>

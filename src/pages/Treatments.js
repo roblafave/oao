@@ -23,7 +23,7 @@ class TreatmentsSkinBrushing extends Component {
 					<div className='navbar-oao-page-container'>
 						<div className='navbar-oao-link-active-treatments'></div>
 					</div>
-					<div className='row visible-xs visible-sm'>
+					<div className='row visible-xs'>
 						<div className='col-sm-12 treatments-mob-nav'>
 							<Link to="/treatments/skinbrushing" className='treatment-link-skinbrushing'>Skin Brushing</Link><br/>
 							<Link to="/treatments/endermologie" className='treatment-link-endermologie'>Endermologie</Link><br/>
@@ -40,7 +40,7 @@ class TreatmentsSkinBrushing extends Component {
 						<div className='row'>
 							<div className='col-sm-3'></div>
 							<div className='col-sm-6'>
-								<div className='treatment-title'></div>
+								<div className='treatment-title hidden-xs'><br/><br/><br/><h4><b>&lt; Select a Treatment &gt;</b></h4></div>
 								<div className='treatment-subhead'></div>
 								<div className='treatment-combo'></div>
 								<div className='treatment-body'></div>

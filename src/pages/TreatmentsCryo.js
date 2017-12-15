@@ -28,7 +28,8 @@ class TreatmentsCryo extends Component {
 								<div className='col-sm-3'></div>
 								<div className='col-sm-6'>
 									<div className='treatment-title hidden-xs hidden-sm' style={{ marginTop: '70px' }}><h3><b>Cryo Sauna</b></h3></div>
-									<div className='treatment-title  visible-xs visible-sm' style={{ marginTop: '0px' }}><h3><b>Cryo Sauna</b></h3></div>
+									<div className='treatment-title visible-sm' style={{ marginTop: '50px' }}><h3><b>Cryo Sauna</b></h3></div>
+									<div className='treatment-title  visible-xs' style={{ marginTop: '0px' }}><h3><b>Cryo Sauna</b></h3></div>
 									<div className='treatment-subhead' style={{ marginTop: '20px' }}>
 										Kickstart
 										<br/>
@@ -41,17 +42,13 @@ class TreatmentsCryo extends Component {
 										Encourage blood to circulate, soothe tight muscles and joints, refresh and flush the body with oxygen and nutrients. Pre or post workout.
 										<br/><br/>
 										Cryo is a fun thing to do solo, on a date or with friends.
-										<br/><br/>
-										For enthusiasts, cryo is possible every four hours.
-										<br/><br/>
-										Walk out of cryo and into the lab for a tea.
-										<br/><br/>
-										Cryo pairs well with,
-										<br/>
-										4-2-4 In Fiore facial, infrared sauna, and LED.
 									</div>
-									<div className='treatment-combo'></div>
-									<div className='treatment-body'></div>
+									<div className='treatment-combo'><h5><b>&#123; Cryo x Infrared Sauna x LED &#125;</b></h5></div>
+									<div className='treatment-body'>
+										<br/>
+										Cryo pairs well with
+										<br/>
+										4-2-4 In Fiore facial, infrared sauna, and LED.</div>
 
 
 
