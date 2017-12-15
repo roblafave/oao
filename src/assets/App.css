@@ -686,7 +686,7 @@ fieldset[disabled] .btn-link:focus {
   .treatment-container {
     position: relative;
     min-height: 660px;
-    background: rgba(247,240,222,1) url('https://firebasestorage.googleapis.com/v0/b/on-and-on-7b40c.appspot.com/o/octagon%20shape.svg?alt=media&token=c3aae617-21b5-49fa-a199-7ffd8f38742a') center top no-repeat;
+    background: rgba(247,240,222,1) url('../assets/octagon.svg') center top no-repeat;
     background-size: 91% auto;
     /*border: 1px solid red;*/
   }
@@ -794,7 +794,7 @@ fieldset[disabled] .btn-link:focus {
   .treatment-container {
     position: relative;
     min-height: 660px;
-    background: rgba(247,240,222,1) url('https://firebasestorage.googleapis.com/v0/b/on-and-on-7b40c.appspot.com/o/octagon%20shape.svg?alt=media&token=c3aae617-21b5-49fa-a199-7ffd8f38742a') center top no-repeat;
+    background: rgba(247,240,222,1) url('../assets/octagon.svg') center top no-repeat;
     background-size: 70% auto;
     /*border: 1px solid red;*/
   }
