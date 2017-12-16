@@ -95,11 +95,9 @@ class Navbar extends Component {
 							<li><Link className='navbar-oao-book' to="/book">book</Link></li>
 							<span className='navbar-oao-stroke-book'></span>
 							<li><Link className='navbar-oao-location' to="/location">location</Link></li>
+							<span className='navbar-oao-stroke-location'></span>
+							<li><a href='http://store.on-and-on.co' target='blank' className='navbar-oao-shop'>shop</a></li>
 						</ul>
-
-						<div className='navbar-oao-treatments-stroke'></div>
-						<div className='navbar-oao-book-stroke'></div>
-						<div className='navbar-oao-location-stroke'></div>
 					</div>
 				</div>
 				{this.state.mobnav ?
@@ -134,6 +132,7 @@ const Mobnav = observer(({ close, waveParticipant, avatar, userMatchInfo, user }
 							<li><Link onClick={close} to="/treatments">treatments</Link></li>
 							<li><Link onClick={close} to="/book">book</Link></li>
 							<li><Link onClick={close} to="/location">location</Link></li>
+							<li><Link onClick={close} to="/shop">shop</Link></li>
 							<li><Link onClick={close} to="/welcome">signup waiver</Link></li>
 						</ul>
 							{appState.userMeta.emailauth &&
