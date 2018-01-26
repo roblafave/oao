@@ -18,6 +18,7 @@ class Footer extends Component {
 					<hr className='footer-hr'/>
 
 					<div className='row mb-50 footer-contact-info'>
+						<div classname='col-sm-12'><center><b>address:</b> 5-5161 kuhio hwy suite 210, hanalei, hi 96714</center></div>
 						<div className='col-sm-4 footer-nav-item'><center><a href="tel:1-808-826-4444"><b>phone:</b> 808.826.4444</a></center></div>
 						<div className='col-sm-4'>
 							<center>
