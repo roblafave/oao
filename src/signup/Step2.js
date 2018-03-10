@@ -145,7 +145,7 @@ class Step2 extends Component {
 										<input type='submit' className='btn btn-default btn-block' value='Next' />
 										{appState.userMeta.errorsCount > 0 &&
 											<div className="onboarding-help-block">
-											Please accept the legal terms above by clicking the checkbox.
+											Please accept the legal terms above to acknowledge contraindications for the following modalities by clicking the checkbox.
 											</div>
 										}
 									</div>
@@ -256,13 +256,49 @@ function termsContent(){
 				<br /><br />
 				<b>Cryo</b>
 				<br />
-				Individuals with any of the following symptoms or situations may​ ​not​, under any circumstance undergo Cryo:
+				Time limitation: the maximum amount of time in the cryo chamber cannot exceed 3 minutes. Each guest is required to wear the provided socks, mittens, gloves and shoes. When entering the cryo chamber guests must be completely dry and free of any moisture. Inhaling nitrogen can result in fainting.
+				<br /><br />
+				You must be at least 13 years old to participate in whole body cryotherapy.
+				<br /><br />
+				<b>Note: Parental consent is required for anyone 17 years or younger.</b>
+				<br /><br />
+				Individuals with any of the following symptoms or situations may not, under any circumstance undergo Cryo at our facility:
 				<ul>
-					<li>Raynauds phenomenon</li>
-					<li>Cold hypersensitivity including: Urticaria, Erythema andHemoglobinuria</li>
-					<li>Anesthesia</li>
+					<li>Untreated Hypertension</li>
+					<li>Heart attack within previous 6 months</li>
+					<li>Decompensating diseases (edema) of the cardiovascular and respiratory system;</li>
+					<li>Congestive Heart Failure</li>
+					<li>COPD</li>
+					<li>Chronic liver disease</li>
+					<li>Unstable Angina Pectoris</li>
+					<li>Pacemaker</li>
+					<li>Peripheral Arterial Occlusive Disease</li>
+					<li>Deep Vein Thrombosis (DVT) or known circulatory dysfunction</li>
+					<li>Acute febrile respiratory (Flu like respiratory conditions)</li>
+					<li>Acute kidney and urinary tract diseases</li>
+					<li>Severe Anemia</li>
+					<li>Cold Allergenic Phenomenon (known allergy to cold contactants)</li>
+					<li>Heavy consumerist diseases (abnormal bleeding)</li>
+					<li>Seizure disorders</li>
+					<li>Bacterial and viral infections of the skin</li>
+					<li>Wound healing disorders (open sores or discharging wound/skin conditions)</li>
+					<li>Alcohol and drug abuse</li>
+					<li>Valvular heart disease</li>
+					<li>Recent heart surgery</li>
+					<li>Ischemic heart disease</li>
+					<li>Raynaud’s disease</li>
+					<li>Polyneuropathies</li>
+					<li>Pregnancy</li>
+					<li>Vasculitis</li>
+					<li>Hyperhidrosis – heavy perspiration</li>
+					<li>Diabetes</li>
 				</ul>
-				Individuals with any of the following symptoms, cardiac conditions, or situations may​ ​undergo Cryo with proof of physician's approval:
+				<br />
+				<u>IMPORTANT NOTICE</u>: Whole Body Cryotherapy (WBC) is not an FDA approved medical treatment. It is not used to treat, cure or prevent any diseases. Rather it is used to assist the body in maximizing its innate self-healing abilities. Before trying WBC, you should always ask your medical professional if the treatment is safe and appropriate for you. WBC treatments are not administered by a licensed medical professional.
+				<br /><br />
+				Individuals with any of the following symptoms or situations <b>may</b> ​undergo Cryo with proof of physician's approval:
+				<br />
+				Cardiac conditions such as:
 				<ul>
 					<li>Arthymia, Angina, CHD</li>
 					<li>High blood pressure</li>
@@ -284,7 +320,7 @@ function termsContent(){
 					<li>Subjects using blood thinning medications.</li>
 					<li>Subjects with clotting disorders.</li>
 					<li>History of any kind of cancer.</li>
-					<li>Impaired immune system due to immunosuppressive diseases such as AIDS and HTV, or use of immunosuppressive medications.</li>
+					<li>Impaired immune system due to immunosuppressive diseases such as AIDS and HIV, or use of immunosuppressive medications.</li>
 					<li>Patients with history of diseases stimulated by heat, such as recurrent Herpes Simplex in the treatment area, may be treated only following a prophylactic regime.</li>
 					<li>History of skin disorders, keloids, abnormal wound healing, as well as very dry and fragile skin.</li>
 					<li>Use of non-steroidal anti-inflammatory drugs (NSAIDS, e.g., ibuprofen containing agents) one week before and after each treatment session.</li>
@@ -318,15 +354,15 @@ function termsContent(){
 				<br /><br />
 				<b>Authorization</b>
 				<br />
-				I hereby authorize the technician(s) at ON & ON to perform Microcurrent Facial, LED light therapy, Far Infrared Sauna, Cryotherapy, Facials, Radiofrequency, and/or Endermologie on me. I fully understand these procedures have limited applications. I am aware the above procedures are not an exact science and I acknowledge that reputable practitioners cannot properly guarantee quality and/or results or freedom from complications, and I have not received such guarantees. I acknowledge I have had the opportunity to ask questions and to consult medical professionals of my own choosing before electing to have any of these procedures, and I fully understand the following treatments: Microcurrent Facial, LED light therapy, Far Infrared Sauna, Cryotherapy, Facials, Radiofrequency and Endermologie. The procedures are generally considered cosmetic, and may not be covered by insurance. I understand I am responsible for all costs of the procedure and related treatments.
+				I hereby authorize the technician(s) at ON & ON to perform Microcurrent Facial, LED light therapy, Far Infrared Sauna, Cryotherapy, Facials, Radiofrequency, and/or Endermologie on me. I fully understand these procedures have limited applications. I am aware the above procedures are not an exact science and I acknowledge that reputable practitioners cannot properly guarantee quality and/or results or freedom from complications, and I have not received such guarantees. I acknowledge I have had the opportunity to ask questions and to consult medical professionals of my own choosing before electing to have any of these procedures, and I fully understand the following treatments Microcurrent Facial, LED light therapy, Far Infrared Sauna, Cryotherapy, Facials, Radiofrequency and Endermologie. The procedures are generally considered cosmetic, and may not be covered by insurance. I understand I am responsible for all costs of the procedure and related treatments.
 				<br /><br />
 				<b>Waiver</b>
 				<br />
-				ON & ON believes that the procedures we offer are generally safe, and that if side effects do occur they are usually mild and short lasting. I understand and acknowledge there are risks involved with the treatment of the Microcurrent Facial, LED light therapy, Far Infrared Sauna, Cryotherapy, Facials, Endermologie, Facials, and/or Radiofrequency. I have had the opportunity to ask questions regarding these risks and other possible complications, and to consult medical professionals of my own choosing before electing to have any of these procedures. I understand any false, misleading, and/or incomplete information I have given to ON & ON, and/or any decision on my part to continue treatment after a change in my health status, may lead to undesired results and complications. As an inducement to ON & ON to provide these procedures to me at request, and as a condition for ON & ON’s willingness to provide such procedures, I agree as follows: (a) To the maximum extent permitted by applicable law, I hereby waive, release and discharge any and all present and future claims that I may be entitled to assert against ON & ON, its owners, officers, employees, contractors, technicians, vendors and agents (collectively, the “Released Parties”) by reason of the procedures and/or otherwise, including but not limited to claims based on unsatisfactory results, complications, side effects and/or negligence, loss or damage to person or property, premises liability, and any and all loss, liability, cost, expense, damage, injury and/or death that may result from such claims; and .(b) I agree​ ​I​ ​will​ ​assume​ ​the​ ​entire​ ​risk​ ​and​ ​full​ ​responsibility​ ​for any​ ​and​ ​all​ ​such​ ​losses,​ ​liabilities,​ ​costs,​ ​expenses,​ ​injuries, losses,​ ​damages,​ ​and/or​ ​death​ ​which​ ​might​ ​occur​ ​to​ ​me​ ​and/or​ ​my property​ ​during or after these procedures, including the lack of desired results, complications or side effects; and (c). I agree this Waiver shall bind me, the members of my family, and any spouse or domestic partner, if I am alive, as well as my estate, family, heirs, administrators, personal representatives or assigns if I am deceased, and shall be deemed as a “Release, Waiver, Discharge and Covenant Not to Sue” as to each and all of the Released Parties.
+				ON & ON believes that the procedures we offer are generally safe, and that if side effects do occur they are usually mild and short lasting. I understand and acknowledge there are risks involved with the treatment of the Microcurrent Facial, LED light therapy, Far Infrared Sauna, Cryotherapy, Facials, Endermologie, Facials, and/or Radiofrequency. I have had the opportunity to ask questions regarding these risks and other possible complications, and to consult medical professionals of my own choosing before electing to have any of these procedures. I understand any false, misleading, and/or incomplete information I have given to ON & ON, and/or any decision on my part to continue treatment after a change in my health status, may lead to undesired results and complications. As an inducement to ON & ON to provide these procedures to me at request, and as a condition for ON & ON’s willingness to provide such procedures, I agree as follows: (a) To the maximum extent permitted by applicable law, I hereby waive, release and discharge any and all present and future claims that I may be entitled to assert against ON & ON, its owners, officers, employees, contractors, technicians, vendors and agents (collectively, the “Released Parties”) by reason of the procedures and/or otherwise, including but not limited to claims based on unsatisfactory results, complications, side effects and/or negligence, loss or damage to person or property, premises liability, and any and all loss, liability, cost, expense, damage, injury and/or death that may result from such claims; and (b). <b>I agree I will assume the entire risk and full responsibility for any and all such losses, liabilities, costs, expenses, injuries, losses, damages, and/or death which might occur to me and/or my property</b> ​during or after these procedures, including the lack of desired results, complications or side effects; and (c). I agree this Waiver shall bind me, the members of my family, and any spouse or domestic partner, if I am alive, as well as my estate, family, heirs, administrators, personal representatives or assigns if I am deceased, and shall be deemed as a “Release, Waiver, Discharge and Covenant Not to Sue” as to each and all of the Released Parties.
 				<br /><br />
 				<b>Maximum​ ​Liability​ ​for​ ​Claims</b>
 				<br />
-				ON & ON’s maximum aggregate liability to client related to or in connection with the procedures performed by the Released Parties ON & ON, and/or its owners, officers, will be limited to the total amount paid to ON & ON by client for the procedures described in this authorization and consent. I understand that this is a cap on the amount I may be entitled to receive if I prevail in a legal claim and not a refund policy.
+				On & On’s maximum aggregate liability to client related to or in connection with the procedures performed by the Released Parties On & On, and/or its owners, officers, will be limited to the total amount paid to On & On by client for the procedures described in this authorization and consent. I understand that this is a cap on the amount I may be entitled to receive if I prevail in a legal claim and not a refund policy.
 		</div>
 	)
 }

@@ -22,7 +22,6 @@ import TreatmentsMicrocurrent from './pages/TreatmentsMicrocurrent';
 import TreatmentsRadiofrequency from './pages/TreatmentsRadiofrequency';
 import TreatmentsLed from './pages/TreatmentsLed';
 
-import WavePreSignup from './pages/WavePreSignup';
 import EmailCapture from './pages/EmailCapturePage';
 import Page404 from './pages/Page404';
 
