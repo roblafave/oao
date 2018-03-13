@@ -9,6 +9,7 @@ import Footer from '../components/Footer';
 import starburst from '../assets/starburst.png';
 import map from '../assets/map.png';
 import placemark from '../assets/placemark.svg';
+import interior from '../assets/storeinterior.jpg';
 
 
 class Location extends Component {
@@ -25,8 +26,10 @@ class Location extends Component {
 						<div className='navbar-oao-page-container'>
 							<div className='navbar-oao-link-active-location'></div>
 						</div>
-						<div className='row hero-container-text'>
-							<div className='col-sm-12'>
+
+						<div className='row'>
+							<div className='col-sm-12 mt-50'>
+								<img src={ interior } width={ '100%' } alt='ON & ON Store Interior' className='hidden-xs' />
 							</div>
 						</div>
 
