@@ -1622,7 +1622,7 @@ select {
 .navbar-oao-link-active-treatments {
   position: absolute;
   top: -102px;
-  right: 290cpx;
+  right: 290px;
   height: 39px;
   width: 70px;
   background: url('../assets/OAOlogosecondary.svg') center center/cover no-repeat;
