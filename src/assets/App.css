@@ -1613,7 +1613,7 @@ select {
 .navbar-oao-link-active-about {
   position: absolute;
   top: -92px;
-  right: 492px;
+  right: 422px;
   height: 39px;
   width: 70px;
   background: url('../assets/OAOlogosecondary.svg') center center/cover no-repeat;
@@ -1622,7 +1622,7 @@ select {
 .navbar-oao-link-active-treatments {
   position: absolute;
   top: -102px;
-  right: 360px;
+  right: 290cpx;
   height: 39px;
   width: 70px;
   background: url('../assets/OAOlogosecondary.svg') center center/cover no-repeat;
@@ -1631,7 +1631,7 @@ select {
 .navbar-oao-link-active-book {
   position: absolute;
   top: -92px;
-  right: 232px;
+  right: 162px;
   height: 39px;
   width: 70px;
   background: url('../assets/OAOlogosecondary.svg') center center/cover no-repeat;
@@ -1640,7 +1640,7 @@ select {
 .navbar-oao-link-active-location {
   position: absolute;
   top: -102px;
-  right: 115px;
+  right: 45px;
   height: 39px;
   width: 70px;
   background: url('../assets/OAOlogosecondary.svg') center center/cover no-repeat;
